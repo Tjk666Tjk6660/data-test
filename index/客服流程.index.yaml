@@ -2,14 +2,14 @@ version: 1
 matter:
   id: 客服流程
   title: 客服流程
-  current_status: planning
+  current_status: executing
   owner: tangjiankang
   visibility:
     mode: public
     roles: []
     user_ids: []
   created_at: '2026-05-07T15:17:09+08:00'
-  updated_at: '2026-05-07T18:15:19+08:00'
+  updated_at: '2026-05-07T18:25:36+08:00'
 timeline:
 - file: discussions/测试/客服流程/001_tangjiankang_think_90199a.md
   created_at: '2026-05-07T15:17:09+08:00'
@@ -31,3 +31,13 @@ timeline:
   type: act
   summary: 基于设计核对代码现状确认无冲突，输出分8阶段的附件功能实施方案，涵盖后端/API/前端/MCP具体改动路径，并列出4个待对齐空档及约5.5天工时估算。
   quote: discussions/测试/客服流程/002_tangjiankang_act_dad300.md
+- file: discussions/测试/客服流程/004_tangjiankang_act_9f0192.md
+  created_at: '2026-05-07T18:25:36+08:00'
+  creator: tangjiankang
+  owner: tangjiankang
+  type: act
+  summary: 确认附件设计方案与现状无冲突，输出 P1-P8 分阶段实施清单与详细代码方案，并指出新建草稿态附件路径等 4 个需对齐的空档。
+  quote: discussions/测试/客服流程/003_tangjiankang_act_5db7b3.md
+  status_change:
+    from: planning
+    to: executing
