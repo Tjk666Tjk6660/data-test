@@ -1,0 +1,107 @@
+version: 1
+matter:
+  id: OPC项目包装设计方案
+  title: OPC项目包装设计方案
+  current_status: finished
+  created_at: '2026-04-22T18:41:44+08:00'
+  updated_at: '2026-05-06T11:38:23+08:00'
+timeline:
+- file: discussions/enclaws/OPC项目包装设计方案/001_zhangbo_think_46b9b9.md
+  created_at: '2026-04-22T18:41:44+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-22T18:41:44+08:00'
+    body: 目前opc的思路和项目的整体方案，第一节是我的最新意见。第二~四节是 001 / 002 / 003 原稿迁移，部分观点已在第一节被收敛或推翻，请以最上面一节为准。
+    author: zhangbo
+    mentions:
+    - liuyu
+    - xiongjianping
+    - dengke
+    - daisy
+- file: discussions/enclaws/OPC项目包装设计方案/002_dengke_think_440eae.md
+  created_at: '2026-04-22T19:41:32+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/enclaws/OPC项目包装设计方案/001_zhangbo_think_46b9b9.md
+  comments:
+  - created_at: '2026-04-22T19:42:16+08:00'
+    body: 我觉得写得很好，设计也比较完整，但是从架构上面，我有问题还没有想清楚，在帖子里面说明了，希望得到回答。
+    author: dengke
+    mentions:
+    - zhangbo
+- file: discussions/enclaws/OPC项目包装设计方案/003_liuyu_think_d33044.md
+  created_at: '2026-04-22T22:31:08+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: ''
+  quote: discussions/enclaws/OPC项目包装设计方案/001_zhangbo_think_46b9b9.md
+  comments:
+  - created_at: '2026-04-22T22:33:13+08:00'
+    body: 我觉得说的很有道理 我们现在不纠结了 我同意按这个方案来执行
+    author: dengke
+    mentions:
+    - liuyu
+- file: discussions/enclaws/OPC项目包装设计方案/004_zhangbo_think_86c568.md
+  created_at: '2026-04-23T14:42:41+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: ''
+  quote: discussions/enclaws/OPC项目包装设计方案/001_zhangbo_think_46b9b9.md
+  comments:
+  - created_at: '2026-04-23T14:42:41+08:00'
+    body: 整体的产品设计方案，已经细化下来了，请再看一下，目前堵点主要是skill，有些im平台是否能拿到聊天信息不清楚，生成对应平台的帖子自动回复做不到等。
+    author: zhangbo
+    mentions:
+    - daisy
+    - liuyu
+    - xiongjianping
+    - dengke
+- file: discussions/enclaws/OPC项目包装设计方案/005_zhangbo_act_86ba4a.md
+  created_at: '2026-05-06T11:25:13+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: act
+  summary: 一人工作室核心流程（热榜扫描、自动撰稿、发布提醒）已实现，后续 OPC 需求移交熊建平跟进。
+  quote: discussions/enclaws/OPC项目包装设计方案/004_zhangbo_think_86c568.md
+  comments:
+  - body: 验证一下这个需求
+    mentions:
+    - liuyu
+    author: zhangbo
+  status_change:
+    from: planning
+    to: executing
+  verifications_received:
+  - verify_file: discussions/enclaws/OPC项目包装设计方案/006_liuyu_verify_338444.md
+    verified_at: '2026-05-06T11:36:21+08:00'
+    verified_by: liuyu
+    judgement: passed
+    comment: passed
+- file: discussions/enclaws/OPC项目包装设计方案/006_liuyu_verify_338444.md
+  created_at: '2026-05-06T11:36:21+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: verify
+  summary: 验证通过基于Enclaws底层实现的面向OPC行业专项AI agent业务包装层。
+  quote: discussions/enclaws/OPC项目包装设计方案/005_zhangbo_act_86ba4a.md
+  verifications:
+  - target: discussions/enclaws/OPC项目包装设计方案/005_zhangbo_act_86ba4a.md
+    judgement: passed
+    comment: passed
+- file: discussions/enclaws/OPC项目包装设计方案/007_liuyu_result_19542c.md
+  created_at: '2026-05-06T11:38:23+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: result
+  summary: 因项目尚未正式面向客户，决定暂予关闭。
+  outcome: finished
+  status_change:
+    from: executing
+    to: finished

@@ -1,0 +1,21 @@
+version: 1
+matter:
+  id: Pivot产品化思路和商业化前景
+  title: Pivot产品化思路和商业化前景
+  current_status: planning
+  created_at: '2026-04-27T14:33:47+08:00'
+  updated_at: '2026-04-28T11:44:43+08:00'
+timeline:
+- file: discussions/Pivot/Pivot产品化思路和商业化前景/001_dengke_think_e4d869.md
+  created_at: '2026-04-27T14:33:47+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+- file: discussions/Pivot/Pivot产品化思路和商业化前景/002_yezaiyong_think_099eb9.md
+  created_at: '2026-04-28T11:44:43+08:00'
+  creator: yezaiyong
+  owner: yezaiyong
+  type: think
+  summary: 基于主贴宏观框架，提出字段边界、AI 权责、效率量化、功能自检、阶段节奏与对外话术等 6 个落地问题，并建议分三轮推进以将共识转化为具体产品迭代。
+  quote: discussions/Pivot/Pivot产品化思路和商业化前景/001_dengke_think_e4d869.md

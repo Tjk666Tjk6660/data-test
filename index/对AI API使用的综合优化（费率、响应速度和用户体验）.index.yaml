@@ -1,0 +1,15 @@
+version: 1
+matter:
+  id: 对AI API使用的综合优化（费率、响应速度和用户体验）
+  title: 对AI API使用的综合优化（费率、响应速度和用户体验）
+  current_status: planning
+  owner: liuyu
+  created_at: '2026-05-03T17:56:07+08:00'
+  updated_at: '2026-05-03T17:56:07+08:00'
+timeline:
+- file: discussions/Pivot/对AI API使用的综合优化（费率、响应速度和用户体验）/001_dengke_think_ed26da.md
+  created_at: '2026-05-03T17:56:07+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 对比百炼与 DeepSeek 价格差异，梳理多模型选型策略，提出统一 API 路由、缓存优化及代码结构调整的综合降本方案。

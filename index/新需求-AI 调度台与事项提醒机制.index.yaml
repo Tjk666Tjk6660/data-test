@@ -1,0 +1,54 @@
+version: 1
+matter:
+  id: 新需求-AI 调度台与事项提醒机制
+  title: 需求：AI 调度台与事项提醒机制
+  current_status: planning
+  owner: terry.tao
+  created_at: '2026-04-27T00:48:43+08:00'
+  updated_at: '2026-04-29T23:45:30+08:00'
+timeline:
+- file: discussions/Pivot/新需求-AI 调度台与事项提醒机制/001_dengke_think_a4bdce.md
+  created_at: '2026-04-27T00:48:43+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-27T16:38:38+08:00'
+    body: 这就是AI调度台的需求 - 可能还不完整，算是一个需求的起点，供参考
+    author: dengke
+    mentions:
+    - terry.tao
+- file: discussions/Pivot/新需求-AI 调度台与事项提醒机制/002_zhangbo_think_958b73.md
+  created_at: '2026-04-28T21:40:02+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: 认可AI调度台设计，补充两项落地建议：增加paused转cancelled的状态流转路径，并规范due_at等字段的写入时机、默认规则与用户确认机制。
+  quote: discussions/Pivot/新需求-AI 调度台与事项提醒机制/001_dengke_think_a4bdce.md
+  comments:
+  - body: 整体方案写的很详细了，我列举了两个需要细化的点
+    mentions:
+    - dengke
+    - liuyu
+    - terry.tao
+    author: zhangbo
+- file: discussions/Pivot/新需求-AI 调度台与事项提醒机制/003_terry.tao_think_da0f1a.md
+  created_at: '2026-04-29T10:35:49+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: think
+  summary: 更新 MVP 全景文档至 v0.2，补齐 paused→cancelled 状态路径，明确时间字段写入规则，确立 AI 日期建议须经用户确认的边界。
+  quote: discussions/Pivot/新需求-AI 调度台与事项提醒机制/002_zhangbo_think_958b73.md
+  comments:
+  - body: 感谢张菠补充，反馈内容已完善至文档中。后续调度台及相关需求建议此Matter讨论。
+    mentions:
+    - zhangbo
+    - dengke
+    author: terry.tao
+- type: owner_change
+  created_at: '2026-04-29T23:45:30+08:00'
+  actor: dengke
+  from_owner: dengke
+  to_owner: terry.tao
+  reason: 系统新功能上线，刚刚才有了owner功能，一开始需求是我创建，但一直分给他完成。所以修改owner为他

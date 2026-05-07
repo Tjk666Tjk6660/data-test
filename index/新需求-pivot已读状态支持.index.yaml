@@ -1,0 +1,95 @@
+version: 1
+matter:
+  id: 新需求-pivot已读状态支持
+  title: 新需求-pivot已读状态支持
+  current_status: finished
+  owner: tangkun
+  created_at: '2026-04-27T15:44:16+08:00'
+  updated_at: '2026-05-06T13:52:39+08:00'
+timeline:
+- file: discussions/Pivot/新需求-pivot已读状态支持/001_dengke_think_6520d6.md
+  created_at: '2026-04-27T15:44:16+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-27T15:45:35+08:00'
+    body: 修正一个需求错误：阅读来源，例如展开阅读、完整展示、直接打开等 - 这个稍微有点过度设计，此次暂时不需要这个字段
+    author: dengke
+    mentions:
+    - liuyu
+  - created_at: '2026-04-27T23:20:14+08:00'
+    body: 实现此功能。
+    mentions:
+    - tangkun
+    author: liuyu
+- file: discussions/Pivot/新需求-pivot已读状态支持/002_tangkun_think_cb298d.md
+  created_at: '2026-04-28T11:10:43+08:00'
+  creator: tangkun
+  owner: tangkun
+  type: think
+  summary: 提出 Pivot 已读状态技术方案，规划通过新增 SQLite 表独立存储首次阅读记录以保证幂等，并设计前后端触发与聚合逻辑，在不污染文档时间线的前提下实现轻量级已读统计。
+  quote: discussions/Pivot/新需求-pivot已读状态支持/001_dengke_think_6520d6.md
+- file: discussions/Pivot/新需求-pivot已读状态支持/003_liuyu_think_3f3f54.md
+  created_at: '2026-04-28T11:41:34+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: 设计整体可进入开发，需补充 timeline 缓存策略、明确错误回滚细节，并增加并发、前端容错及 SSE 时间同步的测试覆盖。
+  quote: discussions/Pivot/新需求-pivot已读状态支持/002_tangkun_think_cb298d.md
+  comments:
+  - created_at: '2026-04-29T17:36:01+08:00'
+    body: 这个有人在做吗？
+    mentions:
+    - liuyu
+    author: dengke
+- file: discussions/Pivot/新需求-pivot已读状态支持/004_tangkun_act_482c40.md
+  created_at: '2026-04-29T18:01:41+08:00'
+  creator: tangkun
+  owner: tangkun
+  type: act
+  summary: 澄清接口不涉及 matter-index.yaml，并补充并发 mark 请求验证 INSERT OR IGNORE 原子性的测试。
+  quote: discussions/Pivot/新需求-pivot已读状态支持/003_liuyu_think_3f3f54.md
+  status_change:
+    from: planning
+    to: executing
+  comments:
+  - created_at: '2026-04-29T21:42:33+08:00'
+    body: 已上线
+    mentions:
+    - liuyu
+    author: tangkun
+  verifications_received:
+  - verify_file: discussions/Pivot/新需求-pivot已读状态支持/005_liuyu_verify_3aad7f.md
+    verified_at: '2026-04-29T21:52:39+08:00'
+    verified_by: liuyu
+    judgement: passed
+    comment: passed
+- file: discussions/Pivot/新需求-pivot已读状态支持/005_liuyu_verify_3aad7f.md
+  created_at: '2026-04-29T21:52:39+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: verify
+  summary: 经并发测试验证，INSERT OR IGNORE 的原子性满足业务需求。
+  quote: discussions/Pivot/新需求-pivot已读状态支持/004_tangkun_act_482c40.md
+  verifications:
+  - target: discussions/Pivot/新需求-pivot已读状态支持/004_tangkun_act_482c40.md
+    judgement: passed
+    comment: passed
+- type: owner_change
+  created_at: '2026-04-29T23:40:30+08:00'
+  actor: dengke
+  from_owner: dengke
+  to_owner: tangkun
+  reason: 系统新功能上线，刚刚才有了owner功能，一开始需求是我创建，但一直分给他完成。所以修改owner为他
+- file: discussions/Pivot/新需求-pivot已读状态支持/006_liuyu_result_a2b92c.md
+  created_at: '2026-05-06T13:52:39+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: result
+  summary: 该需求已上线，经确认满足业务需求。
+  outcome: finished
+  status_change:
+    from: executing
+    to: finished

@@ -1,0 +1,57 @@
+version: 1
+matter:
+  id: MCP 工具数据完整性：comments 丢失 + list_matters 字段不足
+  title: MCP 工具数据完整性：comments 丢失 + list_matters 字段不足
+  current_status: executing
+  owner: yezaiyong
+  created_at: '2026-05-06T11:18:14+08:00'
+  updated_at: '2026-05-06T11:48:28+08:00'
+timeline:
+- file: discussions/Pivot/MCP 工具数据完整性：comments 丢失 + list_matters 字段不足/001_xiongjianping_think_4d16db.md
+  created_at: '2026-05-06T11:18:14+08:00'
+  creator: xiongjianping
+  owner: yezaiyong
+  type: think
+  summary: MCP schema 层两处数据缺失：get_matter 不返回 timeline comments、list_matters 缺 owner/summary，需补
+    schema
+  comments:
+  - body: 新立的 matter，两处 MCP schema 数据完整性问题（get_matter 丢 comments + list_matters 缺
+      owner/summary）。ken 让我直接立单并分配给你 owner，麻烦看下排期。
+    mentions:
+    - yezaiyong
+    author: xiongjianping
+  - created_at: '2026-05-06T11:32:14+08:00'
+    body: 你没有改matter的owner
+    mentions:
+    - xiongjianping
+    author: dengke
+- file: discussions/Pivot/MCP 工具数据完整性：comments 丢失 + list_matters 字段不足/002_yezaiyong_act_3e5b22.md
+  created_at: '2026-05-06T11:32:32+08:00'
+  creator: yezaiyong
+  owner: yezaiyong
+  type: act
+  summary: 修复 MCP 工具因 schema 缺失静默丢弃后端数据的问题，为 get_matter 补全 comments 并为 list_matters
+    透出 owner 与 summary，同步增加回归测试。
+  quote: discussions/Pivot/MCP 工具数据完整性：comments 丢失 + list_matters 字段不足/001_xiongjianping_think_4d16db.md
+  comments:
+  - body: 合并到用户管理分支一起实施该需求
+    mentions:
+    - liuyu
+    - dengke
+    - xiongjianping
+    author: yezaiyong
+  status_change:
+    from: planning
+    to: executing
+- type: owner_change
+  created_at: '2026-05-06T11:33:25+08:00'
+  actor: xiongjianping
+  from_owner: xiongjianping
+  to_owner: yezaiyong
+  reason: 由熊剑平提出，由叶再勇负责
+- file: discussions/Pivot/MCP 工具数据完整性：comments 丢失 + list_matters 字段不足/003_xiongjianping_think_eb8d5e.md
+  created_at: '2026-05-06T11:48:28+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: 问题 3：create_matter 的 owner 字段被静默丢弃——同一主题的 input 侧补充

@@ -1,0 +1,38 @@
+version: 1
+matter:
+  id: benchmark sass服务化方案
+  title: benchmark sass服务化方案
+  current_status: paused
+  created_at: '2026-04-20T19:44:15+08:00'
+  updated_at: '2026-05-06T11:18:17+08:00'
+timeline:
+- file: discussions/enclaws/benchmark sass服务化方案/001_tangkun_think_1df79b.md
+  created_at: '2026-04-20T19:44:15+08:00'
+  creator: tangkun
+  owner: tangkun
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-20T19:44:15+08:00'
+    body: 结合试用后的体验，决策下产品方向和产品指导意见
+    author: tangkun
+    mentions:
+    - dengke
+    - liuyu
+- file: discussions/enclaws/benchmark sass服务化方案/002_dengke_think_214042.md
+  created_at: '2026-04-21T02:04:12+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/enclaws/benchmark sass服务化方案/001_tangkun_think_1df79b.md
+- file: discussions/enclaws/benchmark sass服务化方案/003_tangkun_think_bc2caf.md
+  created_at: '2026-05-06T11:18:17+08:00'
+  creator: tangkun
+  owner: tangkun
+  type: think
+  summary: 因产品方向调整，决定暂停该产品的迭代研发工作。
+  quote: discussions/enclaws/benchmark sass服务化方案/002_dengke_think_214042.md
+  status_change:
+    from: planning
+    to: paused

@@ -1,0 +1,265 @@
+version: 1
+matter:
+  id: OPC-数字员工服务台-产品规划
+  title: OPC-数字员工服务台-产品规划（001）
+  current_status: executing
+  created_at: '2026-04-25T02:05:56+08:00'
+  updated_at: '2026-05-03T14:36:05+08:00'
+timeline:
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/001_xiongjianping_think_61cc5e.md
+  created_at: '2026-04-25T02:05:56+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-25T02:12:17+08:00'
+    body: 要有一个3-4天上线的方案。这玩意不能做一个月的sprint分期。
+    author: dengke
+    mentions:
+    - xiongjianping
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/002_xiongjianping_think_50168c.md
+  created_at: '2026-04-25T02:36:10+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: ''
+  quote: discussions/enclaws/OPC-数字员工服务台-产品规划/001_xiongjianping_think_61cc5e.md
+  comments:
+  - created_at: '2026-04-27T13:22:12+08:00'
+    body: 今天下午我们要内部先对PRD（MD即可）以及快速原型做一个评审，请提前约时间，建议约在3点到4点，或者5点以后。评审通过后，我们今天之内要发给数科院，约他们的时间在今天晚上或者明天进行讨论。
+    author: dengke
+    mentions:
+    - xiongjianping
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/003_dengke_think_16052a.md
+  created_at: '2026-04-25T13:32:17+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/enclaws/OPC-数字员工服务台-产品规划/002_xiongjianping_think_50168c.md
+  comments:
+  - created_at: '2026-04-27T11:42:55+08:00'
+    body: 我现在对于opc的整体想法，你们可以看看是不是这个思路
+    author: zhangbo
+    mentions:
+    - xiongjianping
+    - liuyu
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/004_zhangbo_think_3c6387.md
+  created_at: '2026-04-27T11:42:49+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: ''
+  quote: discussions/enclaws/OPC-数字员工服务台-产品规划/003_dengke_think_16052a.md
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/005_dengke_think_575055.md
+  created_at: '2026-04-27T11:51:26+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/enclaws/OPC-数字员工服务台-产品规划/004_zhangbo_think_3c6387.md
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/006_daisy_think_1c5253.md
+  created_at: '2026-04-27T14:39:37+08:00'
+  creator: daisy
+  owner: daisy
+  type: think
+  summary: ''
+  quote: discussions/enclaws/OPC-数字员工服务台-产品规划/001_xiongjianping_think_61cc5e.md
+  comments:
+  - created_at: '2026-04-28T12:09:06+08:00'
+    body: 可以看看这个调研
+    mentions:
+    - xiongjianping
+    author: daisy
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/007_xiongjianping_think_8ccf7a.md
+  created_at: '2026-04-27T14:54:45+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: ''
+  quote: discussions/enclaws/OPC-数字员工服务台-产品规划/001_xiongjianping_think_61cc5e.md
+  comments:
+  - created_at: '2026-04-27T14:54:45+08:00'
+    body: 内部讨论底稿
+    author: xiongjianping
+    mentions:
+    - dengke
+    - liuyu
+    - zhangbo
+    - daisy
+  - created_at: '2026-04-27T15:05:07+08:00'
+    body: 对这次评审非常不满，浪费时间。请准备好原型，我们再快速的来一遍。如果只是有一个提稿，以后不要召开会议，大家各自用AI读一下，pivot里面提意见就行。请安排时间，5点钟再进行一次评审。最终给到数科院的应该是一个简洁不啰嗦的产品版本，你现在这个东西我们内部讨论可以，发给客户看也太啰嗦了。
+    author: dengke
+    mentions:
+    - xiongjianping
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/008_dengke_think_881015.md
+  created_at: '2026-04-27T15:00:43+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/enclaws/OPC-数字员工服务台-产品规划/006_daisy_think_1c5253.md
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/009_dengke_think_e5242d.md
+  created_at: '2026-04-27T15:25:39+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/enclaws/OPC-数字员工服务台-产品规划/007_xiongjianping_think_8ccf7a.md
+  comments:
+  - created_at: '2026-04-27T15:25:39+08:00'
+    body: 这里面有你们需要做的执行事项
+    author: dengke
+    mentions:
+    - liuyu
+    - xiongjianping
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/010_xiongjianping_think_2f24ec.md
+  created_at: '2026-04-28T18:10:14+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: OPC 数字员工服务台工作时间流（4/22-4/27），逐日记录产出与卡点，回应 009 帖关于节奏、产品逻辑的批评
+  status_change:
+    from: planning
+    to: paused
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/011_xiongjianping_think_87eccb.md
+  created_at: '2026-04-28T18:13:12+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: 项目背景与外部输入整理：OPC 定义、合作方背景、关键人物、调研会议反馈、外部参考对比、当前阶段
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/012_xiongjianping_think_52bbab.md
+  created_at: '2026-04-28T18:16:07+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: 产品顶层叙事：产品定位（协作事项时间线记录器+生态调度器）、三视角工作动线（平台运营/发包方/接单方/横切支撑）、9条贯穿全产品的设计原则
+  comments:
+  - created_at: '2026-04-28T18:51:35+08:00'
+    body: 请指正。btw，010是时间线+复盘，011是本地保存信息的总结。
+    mentions:
+    - dengke
+    - liuyu
+    - zhangbo
+    - daisy
+    author: xiongjianping
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/013_xiongjianping_think_fea410.md
+  created_at: '2026-04-28T18:34:01+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: 状态纠正：误切 paused，回到 planning
+  status_change:
+    from: paused
+    to: planning
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/014_xiongjianping_think_5bfdbe.md
+  created_at: '2026-04-28T18:36:27+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: '@邓柯 @刘昱 @Daisy @张菠 请审阅 012 产品顶层叙事'
+  refer:
+  - discussions/enclaws/OPC-数字员工服务台-产品规划/012_xiongjianping_think_52bbab.md
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/015_dengke_think_a1d324.md
+  created_at: '2026-04-28T19:28:08+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 建议将 OPC 产品讨论拆成产品宏观定义、五一前 MVP、两周迭代和长期规划四层，避免宏大原型放大数科院预期，并尽快与数科院确认首版上线范围和迭代优先级。
+  quote: discussions/enclaws/OPC-数字员工服务台-产品规划/012_xiongjianping_think_52bbab.md
+  refer: []
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/016_xiongjianping_think_565612.md
+  created_at: '2026-04-28T22:47:47+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: 完全认同 015 核心判断：当前最大风险不是顶层叙事不够宏大，而是对外预期与内部交付节奏未分层。已按四层拆分框架补齐全部内容，可直接作为内部基线与对外对齐材料。
+  quote: discussions/enclaws/OPC-数字员工服务台-产品规划/015_dengke_think_a1d324.md
+  comments:
+  - created_at: '2026-04-28T22:50:33+08:00'
+    body: 默认按**独立实现**测算工时并划分迭代。请评估应该复用EC哪些底层能力。
+    mentions:
+    - liuyu
+    author: xiongjianping
+  - created_at: '2026-04-28T23:31:03+08:00'
+    body: 我咋感觉有点懵呢（还没具体看设计），仅仅是个MVP而已，现在就要排工时、评估底层改造量吗？甲方认可方案吗？
+    mentions:
+    - xiongjianping
+    author: liuyu
+  - created_at: '2026-04-28T23:33:21+08:00'
+    body: 请看015的要求
+    mentions:
+    - liuyu
+    author: xiongjianping
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/017_dengke_think_e017f5.md
+  created_at: '2026-04-28T23:40:40+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 指出 016 的里程碑仍偏向发包/接单链路，缺少数科院作为运营方的功能场景；建议明天对齐会明确第一版和第二版分别满足哪些数科院运营需求，尤其是
+    OPC 业务分析、活动组织和公共资源预定。
+  quote: discussions/enclaws/OPC-数字员工服务台-产品规划/016_xiongjianping_think_565612.md
+  refer: []
+  comments:
+  - created_at: '2026-04-28T23:44:06+08:00'
+    body: 附议：一句话总结：主线没跑偏、四层拆分也对，但园区作为"平台运营方"的物业型功能（工位/会议室/公共场所/出勤）整片缺位，乔智会上明确提的需求只接了"准入/淘汰"那半边，Daisy
+      尽调倾向的"B 端转向"也没有在功能层面落点。建议在第一层对外叙事里把这块补上，并把"轻量园区运营 SaaS"作为独立优先级切片重新评估，而不是统一塞进第四层长期规划。
+    mentions:
+    - xiongjianping
+    author: liuyu
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/018_xiongjianping_think_85db34.md
+  created_at: '2026-04-29T00:36:04+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: V3 四层拆分：修正运营方功能分级（真功能/演示态区分），新增 daisy 006 调研与数科院定位的交叉分析，@刘昱 说明 B 端转向是赋能而非转向
+  quote: discussions/enclaws/OPC-数字员工服务台-产品规划/017_dengke_think_e017f5.md
+  comments:
+  - created_at: '2026-04-29T00:39:00+08:00'
+    body: Daisy 尽调倾向的"B 端转向"，核心不是某个单点功能，而是参与方定位和价值导向。数科院本身就是 daisy 候选 B 描述的园区/政府运营方（见数科院材料：桂溪、金牛、青羊三区运营方案），运营功能做到位不是"转向"，是"赋能"——把园区已有的
+      OPC 招募/准入/考核/订单匹配工作流数字化、可追踪、可汇报。
+    mentions:
+    - liuyu
+    author: xiongjianping
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/019_xiongjianping_think_72db63.md
+  created_at: '2026-04-29T11:13:53+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: 同步评审结论，确认OPC四层规划与MVP交付边界，征求刘昱对五一前版本开发启动及技术选型的确认。
+  quote: discussions/enclaws/OPC-数字员工服务台-产品规划/018_xiongjianping_think_85db34.md
+  comments:
+  - body: 请确认： 1. **基线范围是否清晰？是否可以按此范围正式启动五一前 MVP 版本的开发？** 2. 结合 EC 复用节奏评估，今天能否给出最终技术选型与开发资源安排？
+    mentions:
+    - liuyu
+    author: xiongjianping
+  - created_at: '2026-04-29T11:19:56+08:00'
+    body: 蒋鲲对会上汇报的平台定位、三视角动线和迭代节奏都认可。下一步我按 018 '五一前 MVP' 规划推进开发，已经找刘昱要技术支援了。
+    mentions:
+    - dengke
+    author: xiongjianping
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/020_xiongjianping_act_eb113b.md
+  created_at: '2026-04-29T16:31:34+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: act
+  summary: OPC Web MVP 文档已补齐，状态从 planning 推进到 executing，进入五一前版本开发执行。
+  quote: discussions/enclaws/OPC-数字员工服务台-产品规划/019_xiongjianping_think_72db63.md
+  status_change:
+    to: executing
+    from: planning
+- file: discussions/enclaws/OPC-数字员工服务台-产品规划/021_xiongjianping_act_febbea.md
+  created_at: '2026-05-03T14:36:05+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: act
+  summary: OPC MVP 闭环交付完成，测试地址已上线；透明化未覆盖范围与两周迭代聚焦——AI 能力直接对接 EC 现有能力，涉及底层改造的另起 matter
+    推动。
+  comments:
+  - body: MVP 闭环交付完成，测试地址已上线；两周迭代按原计划推动。liuyu 请关注我后续新起的 EC 底层改造 matter；dengke 未覆盖范围已透明化欢迎
+      review。
+    mentions:
+    - liuyu
+    - dengke
+    author: xiongjianping

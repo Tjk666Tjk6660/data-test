@@ -1,0 +1,96 @@
+version: 1
+matter:
+  id: 支持SSE刷新
+  title: 支持SSE刷新
+  current_status: finished
+  owner: tangkun
+  created_at: '2026-04-23T17:11:59+08:00'
+  updated_at: '2026-04-29T23:45:59+08:00'
+timeline:
+- file: discussions/Pivot/支持SSE刷新/001_dengke_think_25b550.md
+  created_at: '2026-04-23T17:11:59+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-23T17:11:59+08:00'
+    body: 请安排人手
+    author: dengke
+    mentions:
+    - liuyu
+- file: discussions/Pivot/支持SSE刷新/002_liuyu_think_158f45.md
+  created_at: '2026-04-23T17:34:36+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: ''
+  quote: discussions/Pivot/支持SSE刷新/001_dengke_think_25b550.md
+  comments:
+  - created_at: '2026-04-23T17:34:36+08:00'
+    body: 参考回复内容。
+    author: liuyu
+    mentions:
+    - tangkun
+  - created_at: '2026-04-24T19:11:58+08:00'
+    body: 需求清晰，开始设计
+    author: tangkun
+    mentions:
+    - liuyu
+- file: discussions/Pivot/支持SSE刷新/003_tangkun_think_1b1276.md
+  created_at: '2026-04-24T20:37:40+08:00'
+  creator: tangkun
+  owner: tangkun
+  type: think
+  summary: ''
+  quote: discussions/Pivot/支持SSE刷新/001_dengke_think_25b550.md
+  comments:
+  - created_at: '2026-04-24T20:37:40+08:00'
+    body: 请查阅
+    author: tangkun
+    mentions:
+    - dengke
+    - liuyu
+- file: discussions/Pivot/支持SSE刷新/004_tangkun_act_80d787.md
+  created_at: '2026-04-28T19:49:09+08:00'
+  creator: tangkun
+  owner: tangkun
+  type: act
+  summary: v2设计改用SSE并以matter_id为主键简化协议，移除单卡接口依赖；通过300ms debounce与指纹比对实现列表和详情页的静默实时同步与防闪烁，方案已定稿实施。
+  quote: discussions/Pivot/支持SSE刷新/003_tangkun_think_1b1276.md
+  status_change:
+    from: planning
+    to: executing
+  verifications_received:
+  - verify_file: discussions/Pivot/支持SSE刷新/005_liuyu_verify_f4a790.md
+    verified_at: '2026-04-28T20:19:07+08:00'
+    verified_by: liuyu
+    judgement: passed
+    comment: passed
+- file: discussions/Pivot/支持SSE刷新/005_liuyu_verify_f4a790.md
+  created_at: '2026-04-28T20:19:07+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: verify
+  summary: Demo验证表明整体满足业务需求，建议增加消息弹窗提示以提升用户感知。
+  quote: discussions/Pivot/支持SSE刷新/004_tangkun_act_80d787.md
+  verifications:
+  - target: discussions/Pivot/支持SSE刷新/004_tangkun_act_80d787.md
+    judgement: passed
+    comment: passed
+- file: discussions/Pivot/支持SSE刷新/006_liuyu_result_91b6d2.md
+  created_at: '2026-04-28T21:49:03+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: result
+  summary: SSE刷新功能已完成上线并验证通过。
+  outcome: finished
+  status_change:
+    from: executing
+    to: finished
+- type: owner_change
+  created_at: '2026-04-29T23:45:59+08:00'
+  actor: dengke
+  from_owner: dengke
+  to_owner: tangkun
+  reason: 系统新功能上线，刚刚才有了owner功能，一开始需求是我创建，但一直分给他完成。所以修改owner为他

@@ -1,0 +1,53 @@
+version: 1
+matter:
+  id: EC 底层改造规划（服务 CS+OPC等上层业务）
+  title: EC 底层改造规划（服务 CS+OPC等上层业务）
+  current_status: paused
+  owner: xiongjianping
+  created_at: '2026-05-03T15:03:25+08:00'
+  updated_at: '2026-05-06T11:26:35+08:00'
+timeline:
+- file: discussions/enclaws/EC 底层改造规划（服务 CS+OPC等上层业务）/001_xiongjianping_think_a13187.md
+  created_at: '2026-05-03T15:03:25+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: 汇总 saas 菜单 / llm-provider 巡检 / llm-wiki / OPC EC-IM 集成 四大历史话题的 EC 底层改造需求，列出必做
+    A-G + 建议 H-J，含给 liuyu 的需求时间窗回复表，征询团队反馈。
+  comments:
+  - body: 新发起 EC 底层改造规划 matter（整合 saas 菜单 / llm-provider / llm-wiki / OPC-IM 集成 等历史话题）。请重点回复
+      §四 需求表后两列：每条改造的交付时间窗 + 延期降级方案。
+    mentions:
+    - liuyu
+    author: xiongjianping
+  - created_at: '2026-05-03T18:50:59+08:00'
+    body: 我感觉这个帖子只能算是需求清单吧，还需要细化，最好把每一项的业务场景再描述下。不过感觉总体能在一周内实现吧。
+    mentions:
+    - xiongjianping
+    author: liuyu
+  - created_at: '2026-05-03T20:25:43+08:00'
+    body: 需要你review范围，然后是定谁来owner，由他来细化方案，我专心搞opc下期迭代，期望是可用产品，不是对接下接口就完了。也可以顺手一起搞，但两周非常紧张。
+    mentions:
+    - liuyu
+    author: xiongjianping
+  - created_at: '2026-05-06T09:45:58+08:00'
+    body: 跟进这个底层改造需求。
+    mentions:
+    - tangkun
+    author: liuyu
+  - created_at: '2026-05-06T09:49:35+08:00'
+    body: 对ec的改造要先暂停。我们需要重新讨论一下ec架构和商业化定位。以及ec这样的基于oc的架构是否适合toB场景应用
+    mentions:
+    - tangkun
+    - liuyu
+    author: dengke
+- file: discussions/enclaws/EC 底层改造规划（服务 CS+OPC等上层业务）/002_xiongjianping_think_cfe0a7.md
+  created_at: '2026-05-06T11:26:35+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: 建议暂停 EC 底层改造，重新评估其架构设计、商业化定位及基于 OC 的架构在 ToB 场景的适用性。
+  quote: discussions/enclaws/EC 底层改造规划（服务 CS+OPC等上层业务）/001_xiongjianping_think_a13187.md
+  status_change:
+    from: planning
+    to: paused

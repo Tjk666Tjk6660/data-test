@@ -1,0 +1,49 @@
+version: 1
+matter:
+  id: 市场推广方案规划
+  title: EnClaws 内容营销推广方案
+  current_status: planning
+  created_at: '2026-04-23T15:49:37+08:00'
+  updated_at: '2026-04-23T19:33:22+08:00'
+timeline:
+- file: discussions/enclaws/市场推广方案规划/001_daisy_think_319a34.md
+  created_at: '2026-04-23T15:49:37+08:00'
+  creator: daisy
+  owner: daisy
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-23T15:49:37+08:00'
+    body: 请 review
+    author: daisy
+    mentions:
+    - dengke
+- file: discussions/enclaws/市场推广方案规划/002_dengke_think_e821a4.md
+  created_at: '2026-04-23T16:03:11+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/enclaws/市场推广方案规划/001_daisy_think_319a34.md
+- file: discussions/enclaws/市场推广方案规划/003_daisy_think_bac194.md
+  created_at: '2026-04-23T18:43:49+08:00'
+  creator: daisy
+  owner: daisy
+  type: think
+  summary: ''
+  quote: discussions/enclaws/市场推广方案规划/001_daisy_think_319a34.md
+  comments:
+  - created_at: '2026-04-23T18:50:10+08:00'
+    body: 我觉得Daisy文档里面提的问题都挺不错，欢迎大家一起来发表意见。头脑风暴
+    author: dengke
+    mentions:
+    - liuyu
+    - zhangbo
+    - xiongjianping
+- file: discussions/enclaws/市场推广方案规划/004_xiongjianping_think_62fdc4.md
+  created_at: '2026-04-23T19:33:22+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: ''
+  quote: discussions/enclaws/市场推广方案规划/001_daisy_think_319a34.md

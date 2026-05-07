@@ -1,0 +1,123 @@
+version: 1
+matter:
+  id: UI优化需求-Mardown格式的渲染
+  title: UI优化需求-Mardown格式的渲染
+  current_status: finished
+  owner: yuebilin
+  created_at: '2026-04-27T14:42:11+08:00'
+  updated_at: '2026-05-06T17:17:31+08:00'
+timeline:
+- file: discussions/Pivot/UI优化需求-Mardown格式的渲染/001_dengke_think_800057.md
+  created_at: '2026-04-27T14:42:11+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-27T23:20:30+08:00'
+    body: 实现此功能。
+    mentions:
+    - yuebilin
+    author: liuyu
+- file: discussions/Pivot/UI优化需求-Mardown格式的渲染/002_yuebilin_think_f61720.md
+  created_at: '2026-04-28T10:47:41+08:00'
+  creator: yuebilin
+  owner: yuebilin
+  type: think
+  summary: 建议第一版内置四种渲染风格，采用系统默认与用户偏好两级配置，通过轻量菜单切换并即时生效，首期范围仅覆盖matter文档正文。
+  quote: discussions/Pivot/UI优化需求-Mardown格式的渲染/001_dengke_think_800057.md
+  comments:
+  - body: 请查阅
+    mentions:
+    - liuyu
+    - dengke
+    author: yuebilin
+  - created_at: '2026-04-28T10:56:02+08:00'
+    body: 这里有md的效果预览https://illustrious-sable-c20d63.netlify.app/
+    mentions:
+    - liuyu
+    - dengke
+    author: yuebilin
+- file: discussions/Pivot/UI优化需求-Mardown格式的渲染/003_liuyu_think_c9f81e.md
+  created_at: '2026-04-28T11:03:51+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: 认可仅覆盖 matter 正文的方案，建议补充移动端适配并提供静态效果预览，确认后即可进入执行阶段。
+  quote: discussions/Pivot/UI优化需求-Mardown格式的渲染/002_yuebilin_think_f61720.md
+- file: discussions/Pivot/UI优化需求-Mardown格式的渲染/004_dengke_think_5ce204.md
+  created_at: '2026-04-28T11:04:54+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 反馈当前预览差异不大，建议参考开源项目 mweb-themes，自行挑选 5~7 种差异较大的亮暗色主题移植至 Pivot，具体选择无需再议。
+  quote: discussions/Pivot/UI优化需求-Mardown格式的渲染/002_yuebilin_think_f61720.md
+- file: discussions/Pivot/UI优化需求-Mardown格式的渲染/005_yuebilin_think_aa4c83.md
+  created_at: '2026-04-28T11:24:55+08:00'
+  creator: yuebilin
+  owner: yuebilin
+  type: think
+  summary: 确认将参考 MWeb 移植 5~7 个差异较大的主题，并询问首版适配范围是否包含 matter 阅读区背景。
+  quote: discussions/Pivot/UI优化需求-Mardown格式的渲染/004_dengke_think_5ce204.md
+  comments:
+  - body: md格式参考  https://cheery-axolotl-aa1313.netlify.app/
+    mentions:
+    - dengke
+    - liuyu
+    author: yuebilin
+- file: discussions/Pivot/UI优化需求-Mardown格式的渲染/006_dengke_think_145c82.md
+  created_at: '2026-04-28T12:33:37+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 确认 Markdown 主题调整范围仅限于正文渲染，实行小步迭代策略，并要求创建 act 明确工作计划与时间。
+  quote: discussions/Pivot/UI优化需求-Mardown格式的渲染/005_yuebilin_think_aa4c83.md
+- file: discussions/Pivot/UI优化需求-Mardown格式的渲染/007_yuebilin_act_442308.md
+  created_at: '2026-04-28T13:40:01+08:00'
+  creator: yuebilin
+  owner: yuebilin
+  type: act
+  summary: 承诺首版实现 matter 正文 Markdown 渲染主题切换，内置多套亮暗主题，支持管理员配置与用户偏好持久化，严格限定仅影响正文区域。
+  quote: discussions/Pivot/UI优化需求-Mardown格式的渲染/006_dengke_think_145c82.md
+  status_change:
+    from: planning
+    to: executing
+  verifications_received:
+  - verify_file: discussions/Pivot/UI优化需求-Mardown格式的渲染/008_liuyu_verify_c9ff76.md
+    verified_at: '2026-04-29T22:02:11+08:00'
+    verified_by: liuyu
+    judgement: passed
+    comment: passed
+- file: discussions/Pivot/UI优化需求-Mardown格式的渲染/008_liuyu_verify_c9ff76.md
+  created_at: '2026-04-29T22:02:11+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: verify
+  summary: 功能验收通过，整体符合预期，建议在主题切换页面增加预览功能。
+  quote: discussions/Pivot/UI优化需求-Mardown格式的渲染/007_yuebilin_act_442308.md
+  verifications:
+  - target: discussions/Pivot/UI优化需求-Mardown格式的渲染/007_yuebilin_act_442308.md
+    judgement: passed
+    comment: passed
+  comments:
+  - created_at: '2026-05-06T13:37:56+08:00'
+    body: 已上线，麻烦进行下一步操作
+    mentions:
+    - liuyu
+    author: yuebilin
+- type: owner_change
+  created_at: '2026-04-29T23:38:54+08:00'
+  actor: dengke
+  from_owner: dengke
+  to_owner: yuebilin
+  reason: 系统新功能上线，刚刚才有了owner功能，一开始需求是我创建，但一直分给他完成。所以修改owner为他
+- file: discussions/Pivot/UI优化需求-Mardown格式的渲染/009_liuyu_result_9ecd7a.md
+  created_at: '2026-05-06T17:17:31+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: result
+  summary: 已按要求补充预览功能，讨论关闭。
+  outcome: finished
+  status_change:
+    from: executing
+    to: finished

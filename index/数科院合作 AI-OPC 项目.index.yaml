@@ -1,0 +1,110 @@
+version: 1
+matter:
+  id: 数科院合作 AI-OPC 项目
+  title: 数科院合作 AI-OPC 项目
+  current_status: executing
+  created_at: '2026-04-22T18:37:07+08:00'
+  updated_at: '2026-05-06T11:30:23+08:00'
+timeline:
+- file: discussions/enclaws/数科院合作 AI-OPC 项目/001_xiongjianping_think_f28554.md
+  created_at: '2026-04-22T18:37:07+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-22T18:37:07+08:00'
+    body: 数科院合作 AI-OPC 项目立项（plan 起点）：首次会议复盘 + 产品主张（聚焦内容变现 OPC）
+    author: xiongjianping
+    mentions:
+    - dengke
+    - liuyu
+    - zhangbo
+- file: discussions/enclaws/数科院合作 AI-OPC 项目/002_xiongjianping_think_957c0a.md
+  created_at: '2026-04-23T10:47:23+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: ''
+  quote: discussions/enclaws/数科院合作 AI-OPC 项目/001_xiongjianping_think_f28554.md
+  comments:
+  - created_at: '2026-04-23T10:47:23+08:00'
+    body: 微信群收到蒋鲲拟汇报材料，跟进并整理此reply，请查看。
+    author: xiongjianping
+    mentions:
+    - dengke
+  - created_at: '2026-04-23T10:51:24+08:00'
+    body: 你们也看看，有补充请直接回复。
+    author: xiongjianping
+    mentions:
+    - daisy
+    - liuyu
+- file: discussions/enclaws/数科院合作 AI-OPC 项目/003_dengke_think_89a31b.md
+  created_at: '2026-04-23T11:30:28+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/enclaws/数科院合作 AI-OPC 项目/002_xiongjianping_think_957c0a.md
+- file: discussions/enclaws/数科院合作 AI-OPC 项目/004_xiongjianping_think_0c4799.md
+  created_at: '2026-04-23T16:48:58+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: ''
+  quote: discussions/enclaws/数科院合作 AI-OPC 项目/001_xiongjianping_think_f28554.md
+  comments:
+  - created_at: '2026-04-23T16:48:58+08:00'
+    body: 老板安排的 ROI 测算交付，含悲乐双档 + 关键路径 + 商务底线 + 我和蒋鲲沟通口径四档，6.3 E 项等老板拍板。
+    author: xiongjianping
+    mentions:
+    - dengke
+- file: discussions/enclaws/数科院合作 AI-OPC 项目/005_xiongjianping_think_d03229.md
+  created_at: '2026-04-23T17:17:02+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: ''
+  quote: discussions/enclaws/数科院合作 AI-OPC 项目/001_xiongjianping_think_f28554.md
+- file: discussions/enclaws/数科院合作 AI-OPC 项目/006_xiongjianping_think_cf3f4b.md
+  created_at: '2026-04-23T18:51:33+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: ''
+  quote: discussions/enclaws/数科院合作 AI-OPC 项目/001_xiongjianping_think_f28554.md
+  comments:
+  - created_at: '2026-04-23T18:51:33+08:00'
+    body: 004 版参数表格过多，掩盖了决策主线。我按“简简单单把事情说清楚”的原则重写，剔除冗余测算，保留支撑结论的必要逻辑。以下为替换版（006），可直接作为内部决策与对外沟通的统一口径
+    author: xiongjianping
+    mentions:
+    - dengke
+- file: discussions/enclaws/数科院合作 AI-OPC 项目/007_dengke_think_107eb2.md
+  created_at: '2026-04-23T19:05:03+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/enclaws/数科院合作 AI-OPC 项目/006_xiongjianping_think_cf3f4b.md
+  comments:
+  - created_at: '2026-04-23T19:31:23+08:00'
+    body: 请看一下006和007，你需要知情。
+    author: xiongjianping
+    mentions:
+    - zhangbo
+- file: discussions/enclaws/数科院合作 AI-OPC 项目/008_xiongjianping_act_0a0422.md
+  created_at: '2026-05-06T11:30:23+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: act
+  summary: 明确本帖定位为合作立项讨论，实际项目执行已另起【OPC 数字员工服务台产品规划】matter独立推进。
+  quote: discussions/enclaws/数科院合作 AI-OPC 项目/007_dengke_think_107eb2.md
+  status_change:
+    from: planning
+    to: executing
+  comments:
+  - created_at: '2026-05-06T11:32:15+08:00'
+    body: 请review，并verfy/finish这个matter。
+    mentions:
+    - liuyu
+    author: xiongjianping

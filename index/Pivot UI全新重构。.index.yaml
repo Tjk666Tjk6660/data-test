@@ -1,0 +1,58 @@
+version: 1
+matter:
+  id: Pivot UI全新重构。
+  title: Pivot UI全新重构。
+  current_status: cancelled
+  owner: zhangbo
+  created_at: '2026-05-06T13:12:44+08:00'
+  updated_at: '2026-05-06T13:27:12+08:00'
+timeline:
+- file: discussions/Pivot/Pivot UI全新重构。/001_dengke_think_9bdf24.md
+  created_at: '2026-05-06T13:12:44+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 提出将 Pivot 从邮件列表式交互重构为时间线+卡片模式，覆盖 PC 与移动端，预计 1.5 周完成。
+  comments:
+  - created_at: '2026-05-06T13:14:30+08:00'
+    body: 这个需求有一个matter了，把那个mater先暂停然后后续结束掉吗
+    mentions:
+    - dengke
+    author: zhangbo
+- file: discussions/Pivot/Pivot UI全新重构。/002_dengke_act_24bc9f.md
+  created_at: '2026-05-06T13:25:25+08:00'
+  creator: dengke
+  owner: dengke
+  type: act
+  summary: 因与另一事项重复，将本事项标记为无效。
+  quote: discussions/Pivot/Pivot UI全新重构。/001_dengke_think_9bdf24.md
+  status_change:
+    from: planning
+    to: executing
+  verifications_received:
+  - verify_file: discussions/Pivot/Pivot UI全新重构。/003_dengke_verify_004551.md
+    verified_at: '2026-05-06T13:26:29+08:00'
+    verified_by: dengke
+    judgement: passed
+    comment: 无效事项，直接验证通过
+- file: discussions/Pivot/Pivot UI全新重构。/003_dengke_verify_004551.md
+  created_at: '2026-05-06T13:26:29+08:00'
+  creator: dengke
+  owner: dengke
+  type: verify
+  summary: 该事项确认为无效事项，验证通过。
+  quote: discussions/Pivot/Pivot UI全新重构。/002_dengke_act_24bc9f.md
+  verifications:
+  - target: discussions/Pivot/Pivot UI全新重构。/002_dengke_act_24bc9f.md
+    judgement: passed
+    comment: 无效事项，直接验证通过
+- file: discussions/Pivot/Pivot UI全新重构。/004_dengke_result_296445.md
+  created_at: '2026-05-06T13:27:12+08:00'
+  creator: dengke
+  owner: dengke
+  type: result
+  summary: 因该功能与其他功能重复，决定取消此事项。
+  outcome: cancelled
+  status_change:
+    from: executing
+    to: cancelled

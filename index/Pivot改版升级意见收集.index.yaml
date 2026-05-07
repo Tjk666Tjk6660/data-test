@@ -1,0 +1,140 @@
+version: 1
+matter:
+  id: Pivot改版升级意见收集
+  title: Pivot改版升级意见收集
+  current_status: finished
+  owner: liuyu
+  created_at: '2026-04-27T20:29:28+08:00'
+  updated_at: '2026-05-06T21:12:10+08:00'
+timeline:
+- file: discussions/Pivot/Pivot改版升级意见收集/001_tangkun_think_0980a2.md
+  created_at: '2026-04-27T20:29:28+08:00'
+  creator: tangkun
+  owner: ou_63b6889c8a7a79d15b43ee3082a3e0b8
+  type: think
+  summary: Pivot 核心工作流完成从 thread 向 Matter 的迁移，正式发布 Matter 首个完整版本，涵盖功能新增、AI 接入、UI 优化及多项缺陷修复。
+  comments:
+  - created_at: '2026-04-27T20:50:24+08:00'
+    body: 李帅已重启
+    mentions:
+    - lishuai
+    author: tangkun
+  - created_at: '2026-04-27T20:52:16+08:00'
+    body: 测试提醒
+    mentions:
+    - tangkun
+    author: lishuai
+- file: discussions/Pivot/Pivot改版升级意见收集/002_zhangbo_think_e3c939.md
+  created_at: '2026-04-28T11:09:32+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: 指出 Pivot 当前存在的五项体验问题（如界面英文过多、缺乏工作流视图、未读提示体验差及开发术语晦涩等），并提出增加图片支持与全员通知类型两项功能建议。
+  quote: discussions/Pivot/Pivot改版升级意见收集/001_tangkun_think_0980a2.md
+  comments:
+  - body: 目前使用过程中觉得很困惑的一些点和建议
+    mentions:
+    - tangkun
+    - liuyu
+    - dengke
+    - terry.tao
+    author: zhangbo
+- file: discussions/Pivot/Pivot改版升级意见收集/003_dengke_think_a57b3e.md
+  created_at: '2026-04-28T11:22:41+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 回应流程引导与菜单优化方向，提议评估国产大模型多模态能力后再决定图片功能，并建议暂用IM处理通知。
+  quote: discussions/Pivot/Pivot改版升级意见收集/002_zhangbo_think_e3c939.md
+- file: discussions/Pivot/Pivot改版升级意见收集/004_terry.tao_think_76ea16.md
+  created_at: '2026-04-28T12:02:06+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: think
+  summary: 反馈提交需求文档时AI摘要生成偶发阻塞且无提示，建议增加超时判断与加载友好提示。
+  quote: discussions/Pivot/Pivot改版升级意见收集/003_dengke_think_a57b3e.md
+- file: discussions/Pivot/Pivot改版升级意见收集/005_terry.tao_think_c51b6f.md
+  created_at: '2026-04-28T12:50:57+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: think
+  summary: 建议短期内将 matter 状态和文档类型汉化以快速降低理解门槛，长期则待核心功能完善后，基于用户旅程地图进行全面设计以彻底解决体验摩擦。
+  quote: discussions/Pivot/Pivot改版升级意见收集/003_dengke_think_a57b3e.md
+- file: discussions/Pivot/Pivot改版升级意见收集/006_dengke_act_3b91fd.md
+  created_at: '2026-04-28T13:09:56+08:00'
+  creator: dengke
+  owner: liuyu
+  type: act
+  summary: 将AI超时问题升级为act，要求统一排查重构后台并发架构并补齐交互提示
+  quote: discussions/Pivot/Pivot改版升级意见收集/004_terry.tao_think_76ea16.md
+  status_change:
+    from: planning
+    to: executing
+  verifications_received:
+  - verify_file: discussions/Pivot/Pivot改版升级意见收集/010_liuyu_verify_1aa7de.md
+    verified_at: '2026-05-06T21:10:14+08:00'
+    verified_by: liuyu
+    judgement: passed
+    comment: passed
+- type: owner_change
+  created_at: '2026-04-29T21:29:36+08:00'
+  actor: lishuai
+  from_owner: ou_63b6889c8a7a79d15b43ee3082a3e0b8
+  to_owner: lishuai
+  reason: 测试
+- type: owner_change
+  created_at: '2026-04-29T21:31:06+08:00'
+  actor: lishuai
+  from_owner: lishuai
+  to_owner: tangkun
+  reason: owner 还原
+- file: discussions/Pivot/Pivot改版升级意见收集/007_liuyu_think_c2487c.md
+  created_at: '2026-05-06T17:12:27+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: 针对后台并发与 AI 交互超时改造，提出 A/B/C 三方案设计（写盘解耦 / AI 调用契约 / 任务编排），并补齐前端五态 AI 状态机；同时记录
+    git 可替换性与 SaaS 多租户扩展性的接口位，仅留口子不做提前实施。
+  quote: discussions/Pivot/Pivot改版升级意见收集/006_dengke_act_3b91fd.md
+- type: owner_change
+  created_at: '2026-05-06T17:13:34+08:00'
+  actor: liuyu
+  from_owner: tangkun
+  to_owner: liuyu
+  reason: 由刘昱负责推进关于性能优化的架构升级
+- file: discussions/Pivot/Pivot改版升级意见收集/008_liuyu_act_0c8843.md
+  created_at: '2026-05-06T17:15:58+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: act
+  summary: 确认按本方案同步实施后端并发架构改造与 AI 交互降级。
+  quote: discussions/Pivot/Pivot改版升级意见收集/007_liuyu_think_c2487c.md
+- file: discussions/Pivot/Pivot改版升级意见收集/009_liuyu_think_80f003.md
+  created_at: '2026-05-06T21:07:23+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: 方案 B 真实流程验证：5 个场景（fast / auth / slow / stalled / server_5xx）全部通过，过程中拽出
+    3 个真 bug（loopback proxy / __anext__ 取消 / 重试历史语义）已修复并合入 feat/user-management。
+  quote: discussions/Pivot/Pivot改版升级意见收集/007_liuyu_think_c2487c.md
+- file: discussions/Pivot/Pivot改版升级意见收集/010_liuyu_verify_1aa7de.md
+  created_at: '2026-05-06T21:10:14+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: verify
+  summary: 全部改动均已自测通过，底层架构变更不影响页面功能，验证通过。
+  quote: discussions/Pivot/Pivot改版升级意见收集/009_liuyu_think_80f003.md
+  verifications:
+  - target: discussions/Pivot/Pivot改版升级意见收集/006_dengke_act_3b91fd.md
+    judgement: passed
+    comment: passed
+- file: discussions/Pivot/Pivot改版升级意见收集/011_liuyu_result_205806.md
+  created_at: '2026-05-06T21:12:10+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: result
+  summary: 性能优化架构修改已完成自测且无页面影响，本帖予以关闭，其余小需求将另建 matter 跟踪。
+  outcome: finished
+  status_change:
+    from: executing
+    to: finished

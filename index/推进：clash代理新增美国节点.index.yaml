@@ -1,0 +1,31 @@
+version: 1
+matter:
+  id: 推进：clash代理新增美国节点
+  title: 推进：clash代理新增美国节点
+  current_status: executing
+  owner: lishuai
+  created_at: '2026-05-06T20:50:12+08:00'
+  updated_at: '2026-05-06T20:51:27+08:00'
+timeline:
+- file: discussions/运维/推进：clash代理新增美国节点/001_lishuai_act_7737a3.md
+  created_at: '2026-05-06T20:50:12+08:00'
+  creator: lishuai
+  owner: lishuai
+  type: act
+  summary: 推进新增美国代理节点，明确 sing-box 服务端与 Clash Verge 客户端技术栈，规划 CloudFront/ELB + gRPC-Query
+    接入方案并安排验证。
+  comments:
+  - body: 需要验证美国节点
+    mentions:
+    - liuyu
+    author: lishuai
+- file: discussions/运维/推进：clash代理新增美国节点/002_lishuai_act_b53b8c.md
+  created_at: '2026-05-06T20:51:27+08:00'
+  creator: lishuai
+  owner: lishuai
+  type: act
+  summary: 项目正式启动实施并更新状态，同步跟进 Sing-box 部署、代理架构选定、客户端联调与验收排期进度。
+  quote: discussions/运维/推进：clash代理新增美国节点/001_lishuai_act_7737a3.md
+  status_change:
+    from: planning
+    to: executing

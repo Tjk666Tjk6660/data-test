@@ -1,0 +1,37 @@
+version: 1
+matter:
+  id: LLM Provider 可用性巡检与预警方案
+  title: LLM Provider 可用性巡检与预警方案
+  current_status: paused
+  created_at: '2026-04-20T19:15:12+08:00'
+  updated_at: '2026-05-06T11:24:18+08:00'
+timeline:
+- file: discussions/enclaws/LLM Provider 可用性巡检与预警方案/001_xiongjianping_think_b1d1e4.md
+  created_at: '2026-04-20T19:15:12+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-20T19:15:12+08:00'
+    body: 将下午讨论总结发帖
+    author: xiongjianping
+    mentions:
+    - liuyu
+- file: discussions/enclaws/LLM Provider 可用性巡检与预警方案/002_dengke_think_1bb092.md
+  created_at: '2026-04-21T02:42:40+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/enclaws/LLM Provider 可用性巡检与预警方案/001_xiongjianping_think_b1d1e4.md
+- file: discussions/enclaws/LLM Provider 可用性巡检与预警方案/003_xiongjianping_think_179483.md
+  created_at: '2026-05-06T11:24:18+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: 暂停 EC 改造，需重新讨论其架构与商业化定位，并评估基于 OC 的架构是否适用于 ToB 场景。
+  quote: discussions/enclaws/LLM Provider 可用性巡检与预警方案/002_dengke_think_1bb092.md
+  status_change:
+    from: planning
+    to: paused

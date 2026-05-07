@@ -1,0 +1,73 @@
+version: 1
+matter:
+  id: pivot matter视图的改进
+  title: pivot matter视图的改进
+  current_status: executing
+  owner: zhangbo
+  created_at: '2026-05-06T12:56:53+08:00'
+  updated_at: '2026-05-06T18:27:31+08:00'
+timeline:
+- file: discussions/Pivot/pivot matter视图的改进/001_dengke_think_9a6a25.md
+  created_at: '2026-05-06T12:56:53+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 明确 pivot 左侧 Meta 列表需增加精确匹配查找与多选筛选功能（并行生效），并修正“和我有关的视图”逻辑：内容已读不消失，统一按“未读优先时间倒序、已读在后时间倒序”排序。
+- file: discussions/Pivot/pivot matter视图的改进/002_terry.tao_think_2f5daf.md
+  created_at: '2026-05-06T15:15:04+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: think
+  summary: 确认整体需求方向，建议将精确搜索改为模糊匹配，并提出空状态、筛选持久化、未读已读定义等7项产品细节待完善。
+  quote: discussions/Pivot/pivot matter视图的改进/001_dengke_think_9a6a25.md
+  comments:
+  - body: 核心是对精确匹配的定义明确，建议部分字符匹配Matter主题既可。其他需求设计细节的完善看看有无补充，没有的话我再进行设计细节的完善。
+    mentions:
+    - liuyu
+    - zhangbo
+    - dengke
+    author: terry.tao
+  - created_at: '2026-05-06T16:03:34+08:00'
+    body: 这个需求很简单，不用做什么过度的细节设计，也没有必要，反而把流程拖得很长。直接上吧。今天下午就上线。
+    mentions:
+    - terry.tao
+    author: dengke
+- file: discussions/Pivot/pivot matter视图的改进/003_terry.tao_act_66e625.md
+  created_at: '2026-05-06T16:18:54+08:00'
+  creator: terry.tao
+  owner: zhangbo
+  type: act
+  summary: 明确 Matter 视图改进规范：搜索改用子串匹配，支持 Owner/Status 筛选；界定“与我有关”范围，确定列表保留策略及未读/已读分区排序规则。
+  quote: discussions/Pivot/pivot matter视图的改进/002_terry.tao_think_2f5daf.md
+  comments:
+  - body: spec已出。
+    mentions:
+    - zhangbo
+    - dengke
+    author: terry.tao
+  status_change:
+    from: planning
+    to: executing
+  verifications_received:
+  - verify_file: discussions/Pivot/pivot matter视图的改进/004_liuyu_verify_82a937.md
+    verified_at: '2026-05-06T18:27:31+08:00'
+    verified_by: liuyu
+    judgement: passed
+    comment: passed
+- type: owner_change
+  created_at: '2026-05-06T16:24:18+08:00'
+  actor: terry.tao
+  from_owner: liuyu
+  to_owner: zhangbo
+  reason: 需求已讨论清晰和明确并产出相应的Spec文档，转至研发实现。
+- file: discussions/Pivot/pivot matter视图的改进/004_liuyu_verify_82a937.md
+  created_at: '2026-05-06T18:27:31+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: verify
+  summary: 功能基本可用但排版体验仍需优化，建议先上线供用户试用。
+  quote: discussions/Pivot/pivot matter视图的改进/003_terry.tao_act_66e625.md
+  verifications:
+  - target: discussions/Pivot/pivot matter视图的改进/003_terry.tao_act_66e625.md
+    judgement: passed
+    comment: passed

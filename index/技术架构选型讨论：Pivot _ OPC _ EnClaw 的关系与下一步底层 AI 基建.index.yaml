@@ -1,0 +1,24 @@
+version: 1
+matter:
+  id: 技术架构选型讨论：Pivot _ OPC _ EnClaw 的关系与下一步底层 AI 基建
+  title: 技术架构选型讨论：Pivot / OPC / EnClaw 的关系与下一步底层 AI 基建
+  current_status: planning
+  owner: liuyu
+  created_at: '2026-05-06T11:50:11+08:00'
+  updated_at: '2026-05-06T13:36:19+08:00'
+timeline:
+- file: discussions/Pivot/技术架构选型讨论：Pivot _ OPC _ EnClaw 的关系与下一步底层 AI 基建/001_liuyu_think_d029d0.md
+  created_at: '2026-05-06T11:50:11+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: 对比 EnClaw / Pivot / OPC 三个项目的现状与耦合关系，针对未来 AI 调度台 / API 优化 / 数据隐私等需求评估三种底层架构选型方案。
+- file: discussions/Pivot/技术架构选型讨论：Pivot _ OPC _ EnClaw 的关系与下一步底层 AI 基建/002_dengke_think_c02e8f.md
+  created_at: '2026-05-06T13:36:19+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 建议短期以 Pivot 的真实需求为牵引建设 AI 能力，同时在模型调用、异步任务、上下文读取和 MCP/API 边界上做好抽象，待能力跑稳定后再逐步沉淀为公司级
+    AI 枢纽，而不是先无中生有抽象统一底座。
+  quote: discussions/Pivot/技术架构选型讨论：Pivot _ OPC _ EnClaw 的关系与下一步底层 AI 基建/001_liuyu_think_d029d0.md
+  refer: []

@@ -1,0 +1,103 @@
+version: 1
+matter:
+  id: 新需求-作者在pivot中失效自己的文档
+  title: 新需求-作者在pivot中失效自己的文档
+  current_status: executing
+  owner: huangshengli
+  created_at: '2026-04-25T21:21:13+08:00'
+  updated_at: '2026-05-06T19:30:35+08:00'
+timeline:
+- file: discussions/Pivot/新需求-作者在pivot中失效自己的文档/001_dengke_think_e4a9a6.md
+  created_at: '2026-04-25T21:21:13+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-25T21:21:13+08:00'
+    body: 请安排人手
+    author: dengke
+    mentions:
+    - liuyu
+  - created_at: '2026-04-27T23:16:54+08:00'
+    body: 实现此功能。
+    mentions:
+    - huangshengli
+    author: liuyu
+- file: discussions/Pivot/新需求-作者在pivot中失效自己的文档/002_huangshengli_think_acbf55.md
+  created_at: '2026-04-28T20:26:16+08:00'
+  creator: huangshengli
+  owner: huangshengli
+  type: think
+  summary: 整理失效文档功能完整设计方案:timeline 新增 reason 字段共用的失效/恢复事件项,文件项反写 4 字段;5 类文件均可失效(comment
+    不可),不影响 matter 状态;可见性三态规则;SSE/通知/UI 改动清单;v2 延展项另列。
+  quote: discussions/Pivot/新需求-作者在pivot中失效自己的文档/001_dengke_think_e4a9a6.md
+  comments:
+  - created_at: '2026-04-28T20:28:31+08:00'
+    body: 请review设计方案是否已对齐需求
+    mentions:
+    - dengke
+    - liuyu
+    author: huangshengli
+- file: discussions/Pivot/新需求-作者在pivot中失效自己的文档/003_liuyu_think_da9fcf.md
+  created_at: '2026-04-28T22:48:05+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: 反馈失效需求两处理解分歧:sensitive 不应作为失效理由(归未来帖子权限项目),可见性应从三态简化为单一视图(对所有有访问权限的用户和
+    AI 都可见,仅 UI 标注),让 AI 能把已撤回的判断作为方案评估的上下文。
+  quote: discussions/Pivot/新需求-作者在pivot中失效自己的文档/002_huangshengli_think_acbf55.md
+  comments:
+  - created_at: '2026-04-28T23:28:31+08:00'
+    body: 同意刘昱的观点，sensitive不属于失效，应该另外处理。失效的内容应该保持可见，仅在UI标注
+    mentions:
+    - huangshengli
+    - liuyu
+    author: dengke
+  - created_at: '2026-04-28T23:38:24+08:00'
+    body: 已对齐：失效理由收敛为misposted / inaccurate / restored，失效的内容应该保持可见，仅在UI标注。另：index数据结构是否接受此方案的调整，还需确认
+    mentions:
+    - liuyu
+    - dengke
+    author: huangshengli
+- file: discussions/Pivot/新需求-作者在pivot中失效自己的文档/004_huangshengli_think_ce750f.md
+  created_at: '2026-04-29T11:00:35+08:00'
+  creator: huangshengli
+  owner: huangshengli
+  type: think
+  summary: 根据 liuyu 003 反馈整理 v2 评审稿:sensitive 移除归未来「帖子权限」项目,可见性从三态简化为单一视图(对 matter
+    有权限者及 AI 均可见,UI 仅渲染标记)。
+  quote: discussions/Pivot/新需求-作者在pivot中失效自己的文档/003_liuyu_think_da9fcf.md
+- type: owner_change
+  created_at: '2026-04-29T23:43:12+08:00'
+  actor: dengke
+  from_owner: dengke
+  to_owner: huangshengli
+  reason: 系统新功能上线，刚刚才有了owner功能，一开始需求是我创建，但一直分给他完成。所以修改owner为他
+- file: discussions/Pivot/新需求-作者在pivot中失效自己的文档/005_huangshengli_act_445184.md
+  created_at: '2026-05-06T11:18:41+08:00'
+  creator: huangshengli
+  owner: huangshengli
+  type: act
+  summary: 按 v2 评审稿（004）全量落地：失效/恢复事件 + 反写字段 + 通知 + UI + 文档同步，含 strip 节点归位修复，已合 main
+  quote: discussions/Pivot/新需求-作者在pivot中失效自己的文档/004_huangshengli_think_ce750f.md
+  status_change:
+    from: planning
+    to: executing
+  verifications_received:
+  - verify_file: discussions/Pivot/新需求-作者在pivot中失效自己的文档/006_liuyu_verify_e1536c.md
+    verified_at: '2026-05-06T19:30:35+08:00'
+    verified_by: liuyu
+    judgement: passed
+    comment: failed
+- file: discussions/Pivot/新需求-作者在pivot中失效自己的文档/006_liuyu_verify_e1536c.md
+  created_at: '2026-05-06T19:30:35+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: verify
+  summary: 明确失效标识需支持AI语义识别及弹框文案优化，并要求开展日报功能联动验证。
+  quote: discussions/Pivot/新需求-日报推送/015_liuyu_verify_622426.md
+  verifications:
+  - target: discussions/Pivot/新需求-作者在pivot中失效自己的文档/005_huangshengli_act_445184.md
+    judgement: passed
+    comment: failed

@@ -1,0 +1,179 @@
+version: 1
+matter:
+  id: 新需求-日报推送
+  title: 新需求-日报推送
+  current_status: executing
+  created_at: '2026-04-28T10:51:44+08:00'
+  updated_at: '2026-05-06T19:13:24+08:00'
+timeline:
+- file: discussions/Pivot/新需求-日报推送/001_terry.tao_think_5aad1b.md
+  created_at: '2026-04-28T10:51:44+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: think
+  summary: 建议将日报解耦为独立通知服务，通过消息推送将摘要发送至各IM Channel，以避免信息干扰、契合高层习惯，并规避与调度台的功能重叠。
+  comments:
+  - created_at: '2026-04-28T10:53:11+08:00'
+    body: 这个需求讨论下看看是否符合预期的目标。
+    mentions:
+    - liuyu
+    - dengke
+    author: terry.tao
+  - created_at: '2026-04-28T11:06:28+08:00'
+    body: 这个方向没问题，可以输出详细的设计方案
+    mentions:
+    - terry.tao
+    author: dengke
+- file: discussions/Pivot/新需求-日报推送/002_terry.tao_think_b9e408.md
+  created_at: '2026-04-28T11:55:46+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: think
+  summary: 明确日报独立于 Pivot 作为消息管道，首期基于 AI 聚合 index 数据，定时向单一 IM 渠道推送结构化摘要，实现高层免登录掌握全局。
+  quote: discussions/Pivot/新需求-日报推送/001_terry.tao_think_5aad1b.md
+  comments:
+  - body: 详细设计方案已出
+    mentions:
+    - dengke
+    author: terry.tao
+- file: discussions/Pivot/新需求-日报推送/003_dengke_think_94a7c1.md
+  created_at: '2026-04-28T13:38:12+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 建议补充日报格式规范、后端读取开关、宏观决策辅助及个人日报维度，提升系统弹性与价值。
+  quote: discussions/Pivot/新需求-日报推送/002_terry.tao_think_b9e408.md
+- file: discussions/Pivot/新需求-日报推送/004_huangshengli_think_993099.md
+  created_at: '2026-04-28T15:39:26+08:00'
+  creator: huangshengli
+  owner: huangshengli
+  type: think
+  summary: 提出团队日报 MVP 产品设计:基于 matter index + git commits 双数据源,AI 给出 4 维度评分(产出/推进/阻塞/协作),每日推送飞书群,AI
+    异常时降级为纯统计。
+  quote: discussions/Pivot/新需求-日报推送/003_dengke_think_94a7c1.md
+- file: discussions/Pivot/新需求-日报推送/005_dengke_think_98ba60.md
+  created_at: '2026-04-28T19:09:25+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 建议日报 MVP 收窄为仅基于 Pivot matter 数据仓库，不接入 Git repo；AI 以 matter 因果叙事为核心，并补充
+    matter、个人、公司三层日报视角。
+  quote: discussions/Pivot/新需求-日报推送/004_huangshengli_think_993099.md
+  refer: []
+- file: discussions/Pivot/新需求-日报推送/006_terry.tao_think_cd7811.md
+  created_at: '2026-04-28T19:32:01+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: think
+  summary: 该PRD将日报定位为决策辅助工具，确立团队与个人日报的格式规范及后台全量配置策略，引入AI按需读取正文的弹性机制，并明确推送流程与验收标准。
+  quote: discussions/Pivot/新需求-日报推送/003_dengke_think_94a7c1.md
+  comments:
+  - body: 日报相关需求已根据补充反馈的进行优化
+    mentions:
+    - dengke
+    author: terry.tao
+  - created_at: '2026-04-28T19:33:25+08:00'
+    body: 请参考我发的第5条记录，我重新做了一些思考和约束，按照这些思考和约束更新一版PRD文档。
+    mentions:
+    - terry.tao
+    author: dengke
+- file: discussions/Pivot/新需求-日报推送/007_huangshengli_think_307c43.md
+  created_at: '2026-04-29T00:41:22+08:00'
+  creator: huangshengli
+  owner: captain
+  type: think
+  summary: '基于 #005 方向落地的产品设计稿:日报一份(matter / 个人 / 公司三层视角)、三次 LLM 调用拆分、程序硬过滤无推进 matter、AI
+    工具调用按需返读正文、JSON Schema 约束输出。'
+  quote: discussions/Pivot/新需求-日报推送/005_dengke_think_98ba60.md
+- file: discussions/Pivot/新需求-日报推送/008_terry.tao_think_7de0a9.md
+  created_at: '2026-04-29T10:08:20+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: think
+  summary: 将日报定位重构为基于 matter index 的三层因果叙事，明确程序负责确定性候选筛选、AI 负责按需读原文并生成叙事，删除绩效化表达。
+  quote: discussions/Pivot/新需求-日报推送/006_terry.tao_think_cd7811.md
+  comments:
+  - body: 已根据第五条修改，核心变更：将日报内容从"结构化区块统计"重构为"matter / 个人 / 公司三层因果叙事"；将 AI 角色从"过滤字段、按规则归类"调整为"理解事项、生成叙事"；明确程序与
+      AI 的分工边界——程序筛选候选 matter，AI 判断是否读原文并生成叙事；
+    mentions:
+    - dengke
+    author: terry.tao
+- file: discussions/Pivot/新需求-日报推送/009_huangshengli_think_a1589d.md
+  created_at: '2026-04-29T11:50:37+08:00'
+  creator: huangshengli
+  owner: huangshengli
+  type: think
+  summary: '基于 #008 v0.3 PRD 提出 5 处产品形态替代方案(推送份数 / 风险呈现 / 无活动展示 / 篇幅约束 / AI 调用编排)与
+    2 项实施层细化(paused 阈值、配置走独立文件 + 频率分级),待评审组明确产品形态分歧后进入实施。'
+  quote: discussions/Pivot/新需求-日报推送/008_terry.tao_think_7de0a9.md
+- file: discussions/Pivot/新需求-日报推送/010_terry.tao_think_f28ef7.md
+  created_at: '2026-04-29T12:42:37+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: think
+  summary: 坚持团队与个人日报分推以区分管理视角并避免内容冗长，其余无异议。
+  quote: discussions/Pivot/新需求-日报推送/009_huangshengli_think_a1589d.md
+  comments:
+  - body: 看看能否形成一致的意见后实施。
+    mentions:
+    - huangshengli
+    - dengke
+    - zhangbo
+    author: terry.tao
+- file: discussions/Pivot/新需求-日报推送/011_liuyu_think_ec8748.md
+  created_at: '2026-04-29T14:02:38+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: 建议将三次 LLM 调用从按视角（matter/个人/公司）拆改为按任务流水线（事实抽取→叙事→定性）拆，避免 A、B 对同一事实给出口径不一致的两个版本。
+  quote: discussions/Pivot/新需求-日报推送/007_huangshengli_think_307c43.md
+- file: discussions/Pivot/新需求-日报推送/012_dengke_think_2f6153.md
+  created_at: '2026-04-29T14:03:44+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 提议停止方案争论，将日报做成后台可配置（类型、范围、触发方式等），统一推至飞书机器人，优先动手开发。
+  quote: discussions/Pivot/新需求-日报推送/010_terry.tao_think_f28ef7.md
+- file: discussions/Pivot/新需求-日报推送/013_dengke_think_38e345.md
+  created_at: '2026-04-29T14:10:15+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 建议第一版日报不做逐 matter 报告，只做公司视角和个人视角；公司报告与个人报告独立配置、独立运行，不强行耦合成统一 LLM 流水线。
+  quote: discussions/Pivot/新需求-日报推送/011_liuyu_think_ec8748.md
+  refer: []
+  comments:
+  - created_at: '2026-04-29T14:19:38+08:00'
+    body: 此功能今天要上线并在demo hour完成verify
+    mentions:
+    - liuyu
+    - huangshengli
+    author: dengke
+- file: discussions/Pivot/新需求-日报推送/014_huangshengli_act_1f6627.md
+  created_at: '2026-04-29T17:45:37+08:00'
+  creator: huangshengli
+  owner: huangshengli
+  type: act
+  summary: v0.2 已实施完成并合入 main:两份独立报告(公司视角 + 个人视角)、共享 SharedFacts、进程内 asyncio scheduler、admin
+    UI 配置 + 手动触发、SSL 抖动重试,全套测试 630/631 通过。附实施细则供后续维护参考。
+  quote: discussions/Pivot/新需求-日报推送/013_dengke_think_38e345.md
+  status_change:
+    from: planning
+    to: executing
+  verifications_received:
+  - verify_file: discussions/Pivot/新需求-日报推送/015_liuyu_verify_622426.md
+    verified_at: '2026-05-06T19:13:24+08:00'
+    verified_by: liuyu
+    judgement: passed
+    comment: passed
+- file: discussions/Pivot/新需求-日报推送/015_liuyu_verify_622426.md
+  created_at: '2026-05-06T19:13:24+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: verify
+  summary: 反馈日报需重事实少评论、优化排版与 UI/UX 体验，并将配置项更名及明确归档功能实为删除。
+  quote: discussions/Pivot/新需求-日报推送/014_huangshengli_act_1f6627.md
+  verifications:
+  - target: discussions/Pivot/新需求-日报推送/014_huangshengli_act_1f6627.md
+    judgement: passed
+    comment: passed

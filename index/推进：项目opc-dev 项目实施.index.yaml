@@ -1,0 +1,87 @@
+version: 1
+matter:
+  id: 推进：项目opc-dev 项目实施
+  title: 推进：项目opc-dev 项目实施
+  current_status: finished
+  owner: lishuai
+  created_at: '2026-04-30T11:16:36+08:00'
+  updated_at: '2026-05-06T11:21:15+08:00'
+timeline:
+- file: discussions/enclaws/推进：项目opc-dev 项目实施/001_lishuai_act_4f1a70.md
+  created_at: '2026-04-30T11:16:36+08:00'
+  creator: lishuai
+  owner: lishuai
+  type: act
+  summary: 确定在华为云创建 2C4G 服务器用于 opc-dev 演示项目，并明确由李帅跟进机器创建、初始化及上线协助等后续事项。
+  comments:
+  - body: 开始准备机器
+    mentions:
+    - xiongjianping
+    author: lishuai
+- file: discussions/enclaws/推进：项目opc-dev 项目实施/002_lishuai_act_2b13f6.md
+  created_at: '2026-04-30T14:23:41+08:00'
+  creator: lishuai
+  owner: lishuai
+  type: act
+  summary: opc-dev 项目已进入实施阶段，开始推进华为云服务器创建及相关环境配置。
+  quote: discussions/enclaws/推进：项目opc-dev 项目实施/001_lishuai_act_4f1a70.md
+  status_change:
+    from: planning
+    to: executing
+- file: discussions/enclaws/推进：项目opc-dev 项目实施/003_lishuai_act_0ab8cc.md
+  created_at: '2026-04-30T18:35:45+08:00'
+  creator: lishuai
+  owner: lishuai
+  type: act
+  summary: 确认已完成部署及任务执行。
+  quote: discussions/enclaws/推进：项目opc-dev 项目实施/002_lishuai_act_2b13f6.md
+- file: discussions/enclaws/推进：项目opc-dev 项目实施/004_xiongjianping_act_532803.md
+  created_at: '2026-05-03T04:57:18+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: act
+  summary: MVP 闭环版本（tag mvp-2026-05-03）已部署到 lishuai 搭好的服务器；同步反馈 opc-dev/ops-dev 域名笔误，请协助修正解析。
+  quote: discussions/enclaws/推进：项目opc-dev 项目实施/003_lishuai_act_0ab8cc.md
+  comments:
+  - body: MVP 已部署完成；麻烦把 opc-dev.enclaws.com 解析也指过来，目前能用的是 ops-dev
+    mentions:
+    - lishuai
+    author: xiongjianping
+  - created_at: '2026-05-03T07:03:43+08:00'
+    body: 解析已加
+    mentions:
+    - xiongjianping
+    author: lishuai
+  verifications_received:
+  - verify_file: discussions/enclaws/推进：项目opc-dev 项目实施/005_lishuai_verify_527796.md
+    verified_at: '2026-05-06T11:19:33+08:00'
+    verified_by: lishuai
+    judgement: passed
+    comment: 实施完毕
+- file: discussions/enclaws/推进：项目opc-dev 项目实施/005_lishuai_verify_527796.md
+  created_at: '2026-05-06T11:19:33+08:00'
+  creator: lishuai
+  owner: lishuai
+  type: verify
+  summary: 确认 opc-dev 部署及域名配置已实施完毕。
+  quote: discussions/enclaws/推进：项目opc-dev 项目实施/004_xiongjianping_act_532803.md
+  verifications:
+  - target: discussions/enclaws/推进：项目opc-dev 项目实施/004_xiongjianping_act_532803.md
+    judgement: passed
+    comment: 实施完毕
+- file: discussions/enclaws/推进：项目opc-dev 项目实施/006_lishuai_result_e7634e.md
+  created_at: '2026-05-06T11:21:15+08:00'
+  creator: lishuai
+  owner: lishuai
+  type: result
+  summary: 项目opc-dev实施工作已全部完成。
+  outcome: finished
+  status_change:
+    from: executing
+    to: finished
+  comments:
+  - created_at: '2026-05-06T11:22:22+08:00'
+    body: result必须由刘昱或者我来填写
+    mentions:
+    - lishuai
+    author: dengke

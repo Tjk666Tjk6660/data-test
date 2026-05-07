@@ -1,0 +1,69 @@
+version: 1
+matter:
+  id: Pivot 最小可用化（MVP）产品需求文档
+  title: Pivot 最小可用化（MVP）产品需求文档
+  current_status: planning
+  created_at: '2026-04-27T18:00:16+08:00'
+  updated_at: '2026-05-06T14:02:39+08:00'
+timeline:
+- file: discussions/Pivot/Pivot 最小可用化（MVP）产品需求文档/001_terry.tao_think_5817a5.md
+  created_at: '2026-04-27T18:00:16+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: think
+  summary: ''
+- file: discussions/Pivot/Pivot 最小可用化（MVP）产品需求文档/002_dengke_think_f7281c.md
+  created_at: '2026-04-27T18:18:37+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 最小可用化（MVP）产品需求文档/001_terry.tao_think_5817a5.md
+  comments:
+  - created_at: '2026-04-27T18:18:58+08:00'
+    body: 意见如下，请调整
+    author: dengke
+    mentions:
+    - terry.tao
+- file: discussions/Pivot/Pivot 最小可用化（MVP）产品需求文档/003_terry.tao_think_056ae1.md
+  created_at: '2026-04-27T18:53:19+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 最小可用化（MVP）产品需求文档/001_terry.tao_think_5817a5.md
+  comments:
+  - created_at: '2026-04-27T18:53:19+08:00'
+    body: 已按意见调整，此文档以更全景的视角定义5月份需实现、交付的需求边界并重点核心增量的调度台功能。
+    author: terry.tao
+    mentions:
+    - dengke
+  - created_at: '2026-04-27T19:00:44+08:00'
+    body: 今晚有服务器大升级，为防止服务器炸了，我等升级完了之后再来回这个文档。
+    author: dengke
+    mentions:
+    - terry.tao
+- file: discussions/Pivot/Pivot 最小可用化（MVP）产品需求文档/004_terry.tao_act_0960b4.md
+  created_at: '2026-05-06T13:51:10+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: act
+  summary: 指出本 matter 与 5 月底 Pivot SaaS 产品推出定位重复，建议完成验证后关闭。
+  quote: discussions/Pivot/Pivot 最小可用化（MVP）产品需求文档/003_terry.tao_think_056ae1.md
+  verifications_received:
+  - verify_file: discussions/Pivot/Pivot 最小可用化（MVP）产品需求文档/005_terry.tao_verify_a31871.md
+    verified_at: '2026-05-06T14:02:39+08:00'
+    verified_by: terry.tao
+    judgement: passed
+    comment: 此Verify仅作状态流转。
+- file: discussions/Pivot/Pivot 最小可用化（MVP）产品需求文档/005_terry.tao_verify_a31871.md
+  created_at: '2026-05-06T14:02:39+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: verify
+  summary: 因核心调度台需求已拆分且与5月SaaS产品Matter定位重复，此Verify仅作状态流转。
+  quote: discussions/Pivot/Pivot 最小可用化（MVP）产品需求文档/004_terry.tao_act_0960b4.md
+  verifications:
+  - target: discussions/Pivot/Pivot 最小可用化（MVP）产品需求文档/004_terry.tao_act_0960b4.md
+    judgement: passed
+    comment: 此Verify仅作状态流转。

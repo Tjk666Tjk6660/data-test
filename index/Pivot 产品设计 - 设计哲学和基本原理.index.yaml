@@ -1,0 +1,276 @@
+version: 1
+matter:
+  id: Pivot 产品设计 - 设计哲学和基本原理
+  title: Pivot 产品设计 - 设计哲学和基本原理
+  current_status: finished
+  owner: huangshengli
+  created_at: '2026-04-21T22:31:13+08:00'
+  updated_at: '2026-04-29T23:37:17+08:00'
+timeline:
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/001_dengke_think_e8a253.md
+  created_at: '2026-04-21T22:31:13+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/002_liuyu_think_fbeca6.md
+  created_at: '2026-04-22T14:07:30+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/001_dengke_think_e8a253.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/003_tangkun_think_1cbe31.md
+  created_at: '2026-04-22T16:35:03+08:00'
+  creator: tangkun
+  owner: tangkun
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/001_dengke_think_e8a253.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/004_huangshengli_think_c0b113.md
+  created_at: '2026-04-22T17:22:54+08:00'
+  creator: huangshengli
+  owner: huangshengli
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/001_dengke_think_e8a253.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/005_dengke_think_f247a2.md
+  created_at: '2026-04-22T17:24:42+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/003_tangkun_think_1cbe31.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/006_dengke_think_f1ad6a.md
+  created_at: '2026-04-22T17:36:15+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/001_dengke_think_e8a253.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/007_dengke_think_3d3e55.md
+  created_at: '2026-04-22T17:55:48+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/004_huangshengli_think_c0b113.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/008_dengke_think_33012f.md
+  created_at: '2026-04-22T18:22:01+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/002_liuyu_think_fbeca6.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/009_huangshengli_think_85cbbd.md
+  created_at: '2026-04-22T18:31:52+08:00'
+  creator: huangshengli
+  owner: huangshengli
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/007_dengke_think_3d3e55.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/010_dengke_think_d07514.md
+  created_at: '2026-04-22T20:01:18+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/009_huangshengli_think_85cbbd.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/011_huangshengli_think_3f0748.md
+  created_at: '2026-04-23T01:50:51+08:00'
+  creator: huangshengli
+  owner: huangshengli
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/010_dengke_think_d07514.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/012_liuyu_think_71a0a9.md
+  created_at: '2026-04-23T15:04:26+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/011_huangshengli_think_3f0748.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/013_huangshengli_think_2e84d6.md
+  created_at: '2026-04-23T15:07:13+08:00'
+  creator: huangshengli
+  owner: huangshengli
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/001_dengke_think_e8a253.md
+  comments:
+  - created_at: '2026-04-23T15:07:13+08:00'
+    body: ''
+    author: huangshengli
+    mentions:
+    - liuyu
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/014_huangshengli_think_1de73a.md
+  created_at: '2026-04-23T15:43:45+08:00'
+  creator: huangshengli
+  owner: huangshengli
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/013_huangshengli_think_2e84d6.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/015_dengke_think_99f371.md
+  created_at: '2026-04-23T15:55:11+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/014_huangshengli_think_1de73a.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/016_huangshengli_think_71d8c1.md
+  created_at: '2026-04-24T18:04:22+08:00'
+  creator: huangshengli
+  owner: huangshengli
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/015_dengke_think_99f371.md
+  comments:
+  - created_at: '2026-04-24T18:08:01+08:00'
+    body: 请review迁移方案
+    author: huangshengli
+    mentions:
+    - liuyu
+    - dengke
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/017_tangkun_think_f31bda.md
+  created_at: '2026-04-24T18:08:39+08:00'
+  creator: tangkun
+  owner: tangkun
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/015_dengke_think_99f371.md
+  comments:
+  - created_at: '2026-04-24T18:08:39+08:00'
+    body: 请查阅
+    author: tangkun
+    mentions:
+    - dengke
+    - huangshengli
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/018_dengke_think_68d16f.md
+  created_at: '2026-04-25T00:20:29+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/016_huangshengli_think_71d8c1.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/019_dengke_think_7be81c.md
+  created_at: '2026-04-25T01:03:12+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/017_tangkun_think_f31bda.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/020_huangshengli_think_b8b108.md
+  created_at: '2026-04-25T14:41:38+08:00'
+  creator: huangshengli
+  owner: huangshengli
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/019_dengke_think_7be81c.md
+  comments:
+  - created_at: '2026-04-25T14:41:38+08:00'
+    body: 第1点后端反写index支持，第2点后端支持，第3点,前端控制
+    author: huangshengli
+    mentions:
+    - tangkun
+    - dengke
+  - created_at: '2026-04-25T15:33:38+08:00'
+    body: 可以，就这么搞。
+    author: dengke
+    mentions:
+    - huangshengli
+  - created_at: '2026-04-25T20:08:28+08:00'
+    body: 关于在改造第二点【解耦 Insight 发布与 Reviewed 状态迁移，改为一个独立的终态收口操作】，只是推进状态，前端加一个独立按钮即可，那么index的timeline的file,type填空？只有一个stage_change，确认一下是否这样？还是说整个timeline都不记录了，只改matter状态？
+    author: tangkun
+    mentions:
+    - dengke
+    - huangshengli
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/021_tangkun_think_f53902.md
+  created_at: '2026-04-25T16:20:26+08:00'
+  creator: tangkun
+  owner: tangkun
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/001_dengke_think_e8a253.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/022_dengke_think_45259f.md
+  created_at: '2026-04-25T20:36:51+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/020_huangshengli_think_b8b108.md
+  comments:
+  - created_at: '2026-04-25T20:36:51+08:00'
+    body: 我的回复和几点改进要求
+    author: dengke
+    mentions:
+    - huangshengli
+    - tangkun
+  - created_at: '2026-04-25T21:31:13+08:00'
+    body: 1.关于verifications_received 反写及纯后端原子更新的方案，“你建议的直接修改 index 字段而不产生新文件”，这句话不知道哪里来的，timeline是随着verify文件是有新增的，verify的timeline也记录了act的信息。而反写是在原act文件上追加verifications_received[],是为了让ai看到act文件时能够知道被谁verify过，结果，时间，多少次。说实话我目前没有get老板你说的是哪里打破了原则。
+      2.结论性 Insight：状态流转的载体与灵魂&关于“不记录Timeline，只改状态”的反思。这两点，确实自己是对产品理念严肃性缺乏足够的认知，这个不可解释。
+    author: huangshengli
+    mentions:
+    - dengke
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/023_huangshengli_think_d3c9af.md
+  created_at: '2026-04-25T21:53:56+08:00'
+  creator: huangshengli
+  owner: huangshengli
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/018_dengke_think_68d16f.md
+  comments:
+  - created_at: '2026-04-25T21:56:00+08:00'
+    body: 请老板再次确认
+    author: huangshengli
+    mentions:
+    - dengke
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/024_dengke_think_028e22.md
+  created_at: '2026-04-26T01:45:03+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/023_huangshengli_think_d3c9af.md
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/025_huangshengli_act_6cbd3a.md
+  created_at: '2026-04-28T21:03:55+08:00'
+  creator: huangshengli
+  owner: huangshengli
+  type: act
+  summary: 按本帖设计哲学完成 matter 模型整体实施,11 处非核心偏离见附录
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/024_dengke_think_028e22.md
+  status_change:
+    from: planning
+    to: executing
+  verifications_received:
+  - verify_file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/026_liuyu_verify_790942.md
+    verified_at: '2026-04-28T21:46:41+08:00'
+    verified_by: liuyu
+    judgement: passed
+    comment: passed
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/026_liuyu_verify_790942.md
+  created_at: '2026-04-28T21:46:41+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: verify
+  summary: 已验证核心流程架构改造升级完成，AI调度需求另开贴专项讨论。
+  quote: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/025_huangshengli_act_6cbd3a.md
+  verifications:
+  - target: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/025_huangshengli_act_6cbd3a.md
+    judgement: passed
+    comment: passed
+- file: discussions/Pivot/Pivot 产品设计 - 设计哲学和基本原理/027_liuyu_result_5a3937.md
+  created_at: '2026-04-29T21:57:54+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: result
+  summary: 架构调整已符合预期并稳定运行，故关闭本讨论。
+  outcome: finished
+  status_change:
+    from: executing
+    to: finished
+- type: owner_change
+  created_at: '2026-04-29T23:37:17+08:00'
+  actor: dengke
+  from_owner: dengke
+  to_owner: huangshengli
+  reason: 系统新功能上线，刚刚才有了owner功能，一开始需求是我创建，但一直分给他完成。所以修改owner为他

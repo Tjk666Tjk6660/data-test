@@ -1,0 +1,22 @@
+version: 1
+matter:
+  id: '# MCP 发布 matter 接入可见范围 — 改造需…'
+  title: '# MCP 发布 matter 接入可见范围 — 改造需…'
+  current_status: planning
+  owner: yezaiyong
+  created_at: '2026-05-06T11:44:13+08:00'
+  updated_at: '2026-05-06T11:44:13+08:00'
+timeline:
+- file: discussions/Pivot/# MCP 发布 matter 接入可见范围 — 改造需…/001_yezaiyong_think_1f988e.md
+  created_at: '2026-05-06T11:44:13+08:00'
+  creator: yezaiyong
+  owner: yezaiyong
+  type: think
+  summary: 梳理 MCP 接入后端 matter 可见范围功能的改造需求，明确 create_matter 参数扩展、新增 list_visibility_options
+    工具及 MCP 层校验规则。
+  comments:
+  - body: 增加发布matter可见性需求
+    mentions:
+    - liuyu
+    - dengke
+    author: yezaiyong

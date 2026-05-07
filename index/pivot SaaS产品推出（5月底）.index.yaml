@@ -1,0 +1,15 @@
+version: 1
+matter:
+  id: pivot SaaS产品推出（5月底）
+  title: pivot SaaS产品推出（5月底）
+  current_status: planning
+  owner: dengke
+  created_at: '2026-05-06T13:46:41+08:00'
+  updated_at: '2026-05-06T13:46:41+08:00'
+timeline:
+- file: discussions/Pivot/pivot SaaS产品推出（5月底）/001_dengke_think_f8950c.md
+  created_at: '2026-05-06T13:46:41+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 启动 Pivot SaaS 化项目，明确 5 月下旬上线目标，梳理产品定位、功能优先级、客户画像及市场推广等核心待决问题，作为上线前两周打磨期的持续跟踪载体。

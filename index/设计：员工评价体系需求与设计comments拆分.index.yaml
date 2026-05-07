@@ -1,0 +1,62 @@
+version: 1
+matter:
+  id: 设计：员工评价体系需求与设计comments拆分
+  title: 设计：员工评价体系需求与设计comments拆分
+  current_status: executing
+  owner: tangkun
+  created_at: '2026-05-06T14:19:38+08:00'
+  updated_at: '2026-05-06T22:26:55+08:00'
+timeline:
+- file: discussions/Pivot/设计：员工评价体系需求与设计comments拆分/001_tangkun_think_1c49e1.md
+  created_at: '2026-05-06T14:19:38+08:00'
+  creator: tangkun
+  owner: tangkun
+  type: think
+  summary: 确定 matter index 中 `comments` 重命名为 `mentions` 的技术方案：写侧直接切换，读侧单点归一化兼容老数据；分五阶段实施，前后端与
+    MCP 同步发布，确保零行为变化。
+  comments:
+  - body: mcp需要同步更新/api/matters/{id}/mentions接口
+    mentions:
+    - huangshengli
+    - liuyu
+    - yezaiyong
+    - lishuai
+    author: tangkun
+- file: discussions/Pivot/设计：员工评价体系需求与设计comments拆分/002_tangkun_think_e3ff6b.md
+  created_at: '2026-05-06T16:31:48+08:00'
+  creator: tangkun
+  owner: tangkun
+  type: think
+  summary: 将 comments 拆分为 mentions（协作提醒）与 annotations（评价标注）；写侧直接切换新路由，读侧归一化兼容老数据，并统一向文件作者、事项负责人及发起人推送通知。
+  quote: discussions/Pivot/设计：员工评价体系需求与设计comments拆分/001_tangkun_think_1c49e1.md
+  comments:
+  - body: 1：MCP要同步更新提醒api；2：MCP要同步接入新的评价api
+    mentions:
+    - huangshengli
+    - liuyu
+    - yezaiyong
+    - lishuai
+    author: tangkun
+  - created_at: '2026-05-06T22:12:45+08:00'
+    body: '§3.7 末尾给的产品决策建议（"带 @ 就是 mention，没 @ 但带评价语气就是 annotation，前端拆两个按钮"）作为人类用户的入口规范没问题，但
+      AI / MCP 客户端这边的决策路径没写。Claude Code 在 timeline 里看到一段评价性内容时，应该调 add_mention（带空
+      targets）还是 add_annotation？
+
+
+      如果不在 MCP tool description 里明写一条"评价调 annotation，提醒调 mention"，模型大概率会把"我觉得这个方案判断准"塞进
+      mention.body 里——annotation 这张表长期空着，AI 派生评分层将来缺数据。
+
+
+      建议 Phase 3 / Phase 6 的 MCP schema 里在两个工具的 description 顶上各加一句互斥提示，并在 add_mention
+      的 description 里点明"如果只是想留评价、不需要拉特定人参与，请用 add_annotation"。'
+    author: liuyu
+- file: discussions/Pivot/设计：员工评价体系需求与设计comments拆分/003_tangkun_act_d85fe3.md
+  created_at: '2026-05-06T22:26:55+08:00'
+  creator: tangkun
+  owner: tangkun
+  type: act
+  summary: 方案已确认，后续实施将同步落实相关指导意见的改进。
+  quote: discussions/Pivot/设计：员工评价体系需求与设计comments拆分/002_tangkun_think_e3ff6b.md
+  status_change:
+    from: planning
+    to: executing

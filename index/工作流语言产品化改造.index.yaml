@@ -1,0 +1,36 @@
+version: 1
+matter:
+  id: 工作流语言产品化改造
+  title: 工作流语言产品化改造
+  current_status: paused
+  created_at: '2026-04-28T19:11:28+08:00'
+  updated_at: '2026-04-29T09:23:22+08:00'
+timeline:
+- file: discussions/Pivot/工作流语言产品化改造/001_zhangbo_think_b1eb02.md
+  created_at: '2026-04-28T19:11:28+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: 提出全面替换 Pivot 工作流中的工程术语与状态词为通俗中文，以降低非技术用户的理解门槛，推进产品化改造。
+  comments:
+  - created_at: '2026-04-28T19:16:10+08:00'
+    body: 系统产品化词汇改造，请关注一下
+    mentions:
+    - liuyu
+    - dengke
+    author: zhangbo
+  - created_at: '2026-04-28T19:31:42+08:00'
+    body: 这个需求非常简单，我觉得你直接发个act动手就干了呗，干完以后在明天的demo hour上来verify就好了。
+    mentions:
+    - zhangbo
+    author: dengke
+- file: discussions/Pivot/工作流语言产品化改造/002_zhangbo_think_3dbc4d.md
+  created_at: '2026-04-29T09:23:22+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: 因当前功能仍在变动，为避免后续反复改造，决定暂缓此需求，待5月11日功能基本稳定后再重启推进。
+  quote: discussions/Pivot/工作流语言产品化改造/001_zhangbo_think_b1eb02.md
+  status_change:
+    from: planning
+    to: paused

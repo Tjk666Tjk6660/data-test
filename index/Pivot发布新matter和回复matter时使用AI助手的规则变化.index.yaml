@@ -1,0 +1,116 @@
+version: 1
+matter:
+  id: Pivot发布新matter和回复matter时使用AI助手的规则变化
+  title: Pivot发布新matter和回复matter时使用AI助手的规则变化
+  current_status: executing
+  owner: lishuai
+  created_at: '2026-04-25T20:55:31+08:00'
+  updated_at: '2026-04-29T23:36:56+08:00'
+timeline:
+- file: discussions/Pivot/Pivot发布新matter和回复matter时使用AI助手的规则变化/001_dengke_think_7c71d4.md
+  created_at: '2026-04-25T20:55:31+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-25T20:55:31+08:00'
+    body: 请安排合适的人完成
+    author: dengke
+    mentions:
+    - liuyu
+  - created_at: '2026-04-27T23:13:17+08:00'
+    body: 来实现该功能，做好需求分析、交互设计，评审通过后再实施。
+    mentions:
+    - lishuai
+    author: liuyu
+- file: discussions/Pivot/Pivot发布新matter和回复matter时使用AI助手的规则变化/002_lishuai_think_a6956f.md
+  created_at: '2026-04-28T11:36:37+08:00'
+  creator: lishuai
+  owner: lishuai
+  type: think
+  summary: 本文给出了统一新文档与回复发布的AI协作方案，明确了AI与手打双路径、基于相似度的内容来源判定、发布前质量提示交互、默认双栏布局及前后端改动清单。
+  quote: discussions/Pivot/Pivot发布新matter和回复matter时使用AI助手的规则变化/001_dengke_think_7c71d4.md
+  comments:
+  - body: 这个方案希望你们review
+    mentions:
+    - dengke
+    - liuyu
+    author: lishuai
+- file: discussions/Pivot/Pivot发布新matter和回复matter时使用AI助手的规则变化/003_liuyu_think_60289e.md
+  created_at: '2026-04-28T13:15:30+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: 方案整体覆盖度高，指出了相似度语义偏差、窄屏体验折损、性能隐患及范围蔓延等 7 项遗漏，建议开发前优先对齐核心判定逻辑与兜底策略。
+  quote: discussions/Pivot/Pivot发布新matter和回复matter时使用AI助手的规则变化/002_lishuai_think_a6956f.md
+  comments:
+  - created_at: '2026-04-28T13:40:02+08:00'
+    body: 我对方案中讲的种种细节都没什么意见，可以这样实施，先上线再说。上线后用起来有什么感觉和问题，我们再改
+    mentions:
+    - liuyu
+    author: dengke
+- file: discussions/Pivot/Pivot发布新matter和回复matter时使用AI助手的规则变化/004_lishuai_act_90b60b.md
+  created_at: '2026-04-28T14:26:49+08:00'
+  creator: lishuai
+  owner: lishuai
+  type: act
+  summary: 全量吸收7条评审建议并重构实施顺序，明确#5本期仅做think/act/verify，按逻辑流推进1个工作日交付。
+  quote: discussions/Pivot/Pivot发布新matter和回复matter时使用AI助手的规则变化/003_liuyu_think_60289e.md
+  comments:
+  - body: 开始实施
+    mentions:
+    - dengke
+    - liuyu
+    author: lishuai
+  status_change:
+    from: planning
+    to: executing
+- file: discussions/Pivot/Pivot发布新matter和回复matter时使用AI助手的规则变化/005_lishuai_act_00b983.md
+  created_at: '2026-04-29T09:57:31+08:00'
+  creator: lishuai
+  owner: lishuai
+  type: act
+  summary: v1实施偏差归档，确认核心机制稳定、NewMatter形态成功切换及范围边界受控，为v1.1迭代提供明确输入。
+  quote: discussions/Pivot/Pivot发布新matter和回复matter时使用AI助手的规则变化/004_lishuai_act_90b60b.md
+  comments:
+  - body: 实施偏差记录
+    mentions:
+    - liuyu
+    author: lishuai
+- file: discussions/Pivot/Pivot发布新matter和回复matter时使用AI助手的规则变化/006_lishuai_act_2cd7d7.md
+  created_at: '2026-04-29T12:02:48+08:00'
+  creator: lishuai
+  owner: lishuai
+  type: act
+  summary: 统一新 matter 与回复的 AI 协作方案：默认采用 6 步引导流，引入 `body_source` 状态机与发布前质量门；明确 result/insight
+    暂不接入 v1，确认技术细节，开发可启动。
+  quote: discussions/Pivot/Pivot发布新matter和回复matter时使用AI助手的规则变化/005_lishuai_act_00b983.md
+  comments:
+  - body: 更新设计方案
+    mentions:
+    - liuyu
+    author: lishuai
+  verifications_received:
+  - verify_file: discussions/Pivot/Pivot发布新matter和回复matter时使用AI助手的规则变化/007_liuyu_verify_860932.md
+    verified_at: '2026-04-29T21:55:49+08:00'
+    verified_by: liuyu
+    judgement: passed
+    comment: passed
+- file: discussions/Pivot/Pivot发布新matter和回复matter时使用AI助手的规则变化/007_liuyu_verify_860932.md
+  created_at: '2026-04-29T21:55:49+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: verify
+  summary: 确认满足业务需求并通过验收，建议后续持续观察新交互模式的实际使用情况。
+  quote: discussions/Pivot/Pivot发布新matter和回复matter时使用AI助手的规则变化/006_lishuai_act_2cd7d7.md
+  verifications:
+  - target: discussions/Pivot/Pivot发布新matter和回复matter时使用AI助手的规则变化/006_lishuai_act_2cd7d7.md
+    judgement: passed
+    comment: passed
+- type: owner_change
+  created_at: '2026-04-29T23:36:56+08:00'
+  actor: dengke
+  from_owner: dengke
+  to_owner: lishuai
+  reason: 系统新功能上线，刚刚才有了owner功能，一开始需求是我创建，但一直分给他完成。所以修改owner为他

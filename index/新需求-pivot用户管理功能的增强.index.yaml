@@ -1,0 +1,88 @@
+version: 1
+matter:
+  id: 新需求-pivot用户管理功能的增强
+  title: 新需求-pivot用户管理功能的增强
+  current_status: executing
+  owner: yezaiyong
+  created_at: '2026-04-25T21:34:55+08:00'
+  updated_at: '2026-05-06T18:39:42+08:00'
+timeline:
+- file: discussions/Pivot/新需求-pivot用户管理功能的增强/001_dengke_think_40cfc8.md
+  created_at: '2026-04-25T21:34:55+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-27T23:21:01+08:00'
+    body: 实现此功能。
+    mentions:
+    - yezaiyong
+    author: liuyu
+- file: discussions/Pivot/新需求-pivot用户管理功能的增强/002_liuyu_think_d77e5c.md
+  created_at: '2026-04-27T09:45:27+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: ''
+  quote: discussions/Pivot/新需求-pivot用户管理功能的增强/001_dengke_think_40cfc8.md
+- file: discussions/Pivot/新需求-pivot用户管理功能的增强/003_dengke_think_5bbef8.md
+  created_at: '2026-04-27T10:01:04+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/新需求-pivot用户管理功能的增强/002_liuyu_think_d77e5c.md
+- file: discussions/Pivot/新需求-pivot用户管理功能的增强/004_yezaiyong_act_345851.md
+  created_at: '2026-04-28T11:24:53+08:00'
+  creator: yezaiyong
+  owner: yezaiyong
+  type: act
+  summary: 完成 Pivot 用户管理体系设计，明确身份解耦、审批治理、状态机与角色鉴权等核心机制，采用单 PR 交付，并为未来细粒度权限预留架构空间。
+  quote: discussions/Pivot/新需求-pivot用户管理功能的增强/003_dengke_think_5bbef8.md
+  comments:
+  - body: 方案设计，请评审
+    mentions:
+    - liuyu
+    - dengke
+    author: yezaiyong
+  status_change:
+    from: planning
+    to: executing
+  verifications_received:
+  - verify_file: discussions/Pivot/新需求-pivot用户管理功能的增强/006_liuyu_verify_29674a.md
+    verified_at: '2026-05-06T18:39:42+08:00'
+    verified_by: liuyu
+    judgement: passed
+    comment: passed
+- file: discussions/Pivot/新需求-pivot用户管理功能的增强/005_liuyu_think_f9bca6.md
+  created_at: '2026-04-28T23:26:47+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: 指出 §7.1 解析路径的设计问题（应为直查降级 resolver），以及新内容 @-mention 存储契约、迁移外键表是否穷举、飞书用户备份登录入口三处契约缺口
+  quote: discussions/Pivot/新需求-pivot用户管理功能的增强/004_yezaiyong_act_345851.md
+  comments:
+  - created_at: '2026-04-29T14:21:11+08:00'
+    body: 这个方案是啥情况？从提出到现在已经过了3天了。这么一个简单的需求，3天还不能上线吗
+    mentions:
+    - liuyu
+    - yezaiyong
+    author: dengke
+- type: owner_change
+  created_at: '2026-04-29T23:44:29+08:00'
+  actor: dengke
+  from_owner: dengke
+  to_owner: yezaiyong
+  reason: 系统新功能上线，刚刚才有了owner功能，一开始需求是我创建，但一直分给他完成。所以修改owner为他
+- file: discussions/Pivot/新需求-pivot用户管理功能的增强/006_liuyu_verify_29674a.md
+  created_at: '2026-05-06T18:39:42+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: verify
+  summary: 确认 IM 渠道为绑定必选项且 UI 较完善，但部分细节仍需进一步优化。
+  quote: discussions/Pivot/新需求-pivot用户管理功能的增强/005_liuyu_think_f9bca6.md
+  verifications:
+  - target: discussions/Pivot/新需求-pivot用户管理功能的增强/004_yezaiyong_act_345851.md
+    judgement: passed
+    comment: passed

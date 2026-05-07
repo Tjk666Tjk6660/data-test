@@ -1,0 +1,70 @@
+version: 1
+matter:
+  id: AI 客服 S1 上线
+  title: AI 客服 S1 上线
+  current_status: paused
+  created_at: '2026-04-21T20:10:31+08:00'
+  updated_at: '2026-05-06T11:27:58+08:00'
+timeline:
+- file: discussions/enclaws/AI 客服 S1 上线/001_xiongjianping_think_84cc89.md
+  created_at: '2026-04-21T20:10:31+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-21T20:10:31+08:00'
+    body: AI 客服 S1 今天完成 dev 环境部署和端到端验证，三件事都绿： 1. 回答严格限定在上传的 KB 范围内，超出直接飞书通知负责人跟进，无幻觉
+      2. 后台可维护 KB、配置通知群/频率、查看完整对话 3. 两种场景：EC 自用（第一租户身份自动注入管理后台）、普通租户（后台生成 widget 代码嵌入客户网页）
+      S2-S4 规划：置信度打分 → 客户+AI+人工三角色接管 → 知识库半自动迭代 今天折腾了大半天，根因是 S1 从合并后到今天才第一次被端到端真实跑通——顺手修了
+      4 个埋得较深的 bug，已全部合并 main： - sys-config：启动时文件级配置被悄悄丢弃 - CS 回复剥尾巴（"> Skills used"
+      在客户场景不该看到） - CS 默认 prompt 防幻觉加固（原文引用+脑补词黑名单+自检） - pi-runner tools 空数组：Qwen/DashScope
+      等严 provider 400 的根因
+    author: xiongjianping
+    mentions:
+    - dengke
+    - liuyu
+- file: discussions/enclaws/AI 客服 S1 上线/002_xiongjianping_think_998f8d.md
+  created_at: '2026-04-23T14:23:00+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: ''
+  quote: discussions/enclaws/AI 客服 S1 上线/001_xiongjianping_think_84cc89.md
+  comments:
+  - created_at: '2026-04-23T14:23:00+08:00'
+    body: 合并方案 + S2/S3/S4 归位 + 4 个拍板事项，请 review（重点：底层 10 项改造的责任归属 / 迭代顺序 / 身份识别服务档次——我倾向档
+      1）
+    author: xiongjianping
+    mentions:
+    - dengke
+    - liuyu
+  - created_at: '2026-04-23T15:37:49+08:00'
+    body: 可以讨论一下哪些需求应该并入EC底座来支持。这个讨论我不参加了，请刘昱来支持。
+    author: dengke
+    mentions:
+    - liuyu
+    - xiongjianping
+- file: discussions/enclaws/AI 客服 S1 上线/003_liuyu_think_b8edf5.md
+  created_at: '2026-04-23T16:55:00+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: ''
+  quote: discussions/enclaws/AI 客服 S1 上线/001_xiongjianping_think_84cc89.md
+  comments:
+  - created_at: '2026-04-23T16:55:00+08:00'
+    body: 请先做一下测试再做具体的改动提炼
+    author: liuyu
+    mentions:
+    - xiongjianping
+- file: discussions/enclaws/AI 客服 S1 上线/004_xiongjianping_think_f5d61a.md
+  created_at: '2026-05-06T11:27:58+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: 建议暂停 EC 改造，重新评估其架构与商业化定位，并探讨基于 OC 的架构是否适配 toB 场景。
+  quote: discussions/enclaws/AI 客服 S1 上线/003_liuyu_think_b8edf5.md
+  status_change:
+    from: planning
+    to: paused

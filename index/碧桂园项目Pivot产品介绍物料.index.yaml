@@ -1,0 +1,103 @@
+version: 1
+matter:
+  id: 碧桂园项目Pivot产品介绍物料
+  title: 碧桂园项目Pivot产品介绍物料
+  current_status: finished
+  created_at: '2026-04-28T19:07:43+08:00'
+  updated_at: '2026-05-06T12:50:49+08:00'
+timeline:
+- file: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/001_terry.tao_think_c0d150.md
+  created_at: '2026-04-28T19:07:43+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: think
+  summary: 计划将介绍物料拆分为核心功能与业务场景两部分以更直观传达产品价值，现征求反馈后拟定大纲。
+- file: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/002_dengke_think_766838.md
+  created_at: '2026-04-28T19:15:16+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 建议不要先发短 think，而是直接展开面向客户的介绍材料大纲；以 Pivot 作为思维大脑和指令中心为核心，并用场景化信息流说明其与现有系统及外围
+    Agent 的协作关系。
+  quote: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/001_terry.tao_think_c0d150.md
+  refer: []
+- file: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/003_terry.tao_act_acd7a9.md
+  created_at: '2026-04-29T16:41:10+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: act
+  summary: 确立 Pivot 作为碧桂园事项级调度大脑的定位，明确其与现有业务系统及 AI 能力的边界，定义四层架构与双向数据流，并切分恒定产品核心与可变接入方式。
+  quote: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/002_dengke_think_766838.md
+  comments:
+  - body: 很棒的方向指引，我按照上述信息以及会议中客户展示的业务系统愿景结合Pivot的能力和定位产出了这个文档，看看有没有其他我没捕捉到的信息，如果没问题再基于此文档产出面向客户的方案。
+    mentions:
+    - dengke
+    - liuyu
+    - zhangbo
+    author: terry.tao
+  verifications_received:
+  - verify_file: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/005_terry.tao_verify_c18b04.md
+    verified_at: '2026-04-30T11:00:35+08:00'
+    verified_by: terry.tao
+    judgement: passed
+    comment: 验证文档的方向和底层判断无误
+- file: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/004_dengke_think_9d386e.md
+  created_at: '2026-04-29T17:34:20+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 建议将当前文档定位为内部架构素材，而非直接面向碧桂园高层的沟通材料；对外版本应收敛内部概念，明确标准 Pivot 核心系统与定制化 AI Agent
+    两层服务，并补充与普通 AI 工具不同的业务价值表达。
+  quote: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/003_terry.tao_act_acd7a9.md
+  refer: []
+- file: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/005_terry.tao_verify_c18b04.md
+  created_at: '2026-04-30T11:00:35+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: verify
+  summary: 确认文档方向与底层判断无误，后续将基于本文输出客户业务视角的方案大纲供确认。
+  quote: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/003_terry.tao_act_acd7a9.md
+  verifications:
+  - target: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/003_terry.tao_act_acd7a9.md
+    judgement: passed
+    comment: 验证文档的方向和底层判断无误
+- file: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/006_terry.tao_act_a052ab.md
+  created_at: '2026-04-30T11:09:39+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: act
+  summary: 完成面向碧桂园高层的外部介绍物料底稿，明确“标准大脑+定制 Agent”双层服务定位、系统融合路径及体系级调度价值，并附多场景验证。
+  quote: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/004_dengke_think_9d386e.md
+  comments:
+  - body: Ken在第五条给出的方向和目标已经非常明确，基于此和前述文档产出了这份面向客户的方案底稿，看是否有需要优化调整的地方。
+    mentions:
+    - dengke
+    - liuyu
+    author: terry.tao
+  status_change:
+    from: planning
+    to: executing
+- file: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/007_dengke_think_2eb469.md
+  created_at: '2026-04-30T12:03:43+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 建议优化 AI Agent 定位，从单一执行工具升级为服务与执行一体化的智能触点，以体现用户服务价值。
+  quote: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/006_terry.tao_act_a052ab.md
+- file: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/008_terry.tao_act_97091a.md
+  created_at: '2026-05-06T12:49:10+08:00'
+  creator: terry.tao
+  owner: terry.tao
+  type: act
+  summary: 方案已按Ken对Agent层的定位完成优化，并通过飞书内部沟通群交付。
+  quote: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/007_dengke_think_2eb469.md
+- file: discussions/外部客户实施/碧桂园项目Pivot产品介绍物料/009_dengke_result_0ee4af.md
+  created_at: '2026-05-06T12:50:49+08:00'
+  creator: dengke
+  owner: dengke
+  type: result
+  summary: 该主题因无明确工作内容且仅为探讨Pivotal未来商业化路线，决定予以直接关闭。
+  outcome: finished
+  status_change:
+    from: executing
+    to: finished

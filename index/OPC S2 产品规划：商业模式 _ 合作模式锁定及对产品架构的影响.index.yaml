@@ -1,0 +1,24 @@
+version: 1
+matter:
+  id: OPC S2 产品规划：商业模式 _ 合作模式锁定及对产品架构的影响
+  title: OPC S2 产品规划：商业模式 / 合作模式锁定及对产品架构的影响
+  current_status: planning
+  owner: xiongjianping
+  created_at: '2026-05-06T16:33:34+08:00'
+  updated_at: '2026-05-06T16:33:34+08:00'
+timeline:
+- file: discussions/enclaws/OPC S2 产品规划：商业模式 _ 合作模式锁定及对产品架构的影响/001_xiongjianping_think_753ef9.md
+  created_at: '2026-05-06T16:33:34+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: 商业模式与合作模式不是商务议题，而是 S2 产品架构的前置条件。两条因果链（schema 决策 + UI 架构决策）说明判断不定 S2 会做错。AI
+    能力定调与 ken 5-6 路线对齐——S2 不集成新 AI。请评审三个关键决策点。
+  comments:
+  - created_at: '2026-05-06T16:33:47+08:00'
+    body: OPC S2 商业模式 / 合作模式 / 产品架构影响内部对齐，请 dengke 评审三个关键决策点；liuyu 信息同步。明天与蒋鲲对齐 S2
+      边界的会议会按拍板方向收紧。
+    mentions:
+    - dengke
+    - liuyu
+    author: xiongjianping

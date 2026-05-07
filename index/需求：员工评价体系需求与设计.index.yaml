@@ -1,0 +1,112 @@
+version: 1
+matter:
+  id: 需求：员工评价体系需求与设计
+  title: 需求：员工评价体系需求与设计
+  current_status: executing
+  owner: liuyu
+  created_at: '2026-04-29T17:10:01+08:00'
+  updated_at: '2026-05-06T20:38:45+08:00'
+timeline:
+- file: discussions/Pivot/需求：员工评价体系需求与设计/001_zhangbo_think_04e924.md
+  created_at: '2026-04-29T17:10:01+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: 提出 Matter 进入 result 后由 AI 基于时间线自动生成人员评分与证据链的方案，明确五大评分维度与证据规则，供管理员配置查看且不作自动绩效裁决。
+  comments:
+  - created_at: '2026-04-29T17:10:49+08:00'
+    body: 你看看这个方案
+    mentions:
+    - liuyu
+    author: zhangbo
+- file: discussions/Pivot/需求：员工评价体系需求与设计/002_liuyu_act_2780d3.md
+  created_at: '2026-04-30T11:44:18+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: act
+  summary: 系统详细设计 v0.3：评分对象限定 owner、入口收敛 admin、加入评论加权机制
+  status_change:
+    from: planning
+    to: executing
+- type: owner_change
+  created_at: '2026-04-30T11:46:29+08:00'
+  actor: liuyu
+  from_owner: zhangbo
+  to_owner: liuyu
+  reason: 并更为具体实施人员
+- file: discussions/Pivot/需求：员工评价体系需求与设计/003_dengke_think_ce140a.md
+  created_at: '2026-04-30T16:04:36+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: 建议评分系统不要限制只评价 owner，并将现有 comments 语义拆分为 mention 与 annotation，annotation
+    只记录自然语言评价，权重和评分由系统与 AI 派生。
+  quote: discussions/Pivot/需求：员工评价体系需求与设计/002_liuyu_act_2780d3.md
+  comments:
+  - created_at: '2026-05-06T10:12:56+08:00'
+    body: 来实现这个comments拆分的需求。
+    mentions:
+    - tangkun
+    author: liuyu
+- file: discussions/Pivot/需求：员工评价体系需求与设计/004_zhangbo_think_0da67f.md
+  created_at: '2026-05-06T12:50:32+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: 补充评价对象识别规则：owner_change 转走原因中的评价应归原 owner、自我评价不纳入体系
+  quote: discussions/Pivot/需求：员工评价体系需求与设计/003_dengke_think_ce140a.md
+- file: discussions/Pivot/需求：员工评价体系需求与设计/005_zhangbo_think_661d24.md
+  created_at: '2026-05-06T13:07:25+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: 评价对象识别规则：默认归文件作者，明确点名则归被点名者；自我评价不入链；owner_change 原因中含评价归原 owner
+  quote: discussions/Pivot/需求：员工评价体系需求与设计/003_dengke_think_ce140a.md
+  comments:
+  - created_at: '2026-05-06T13:08:52+08:00'
+    body: 评价规则的产品设计初衷，不是对每个matter的owner评价，而是针对发生的事实进行评价
+    mentions:
+    - liuyu
+    - dengke
+    - lishuai
+    author: zhangbo
+- file: discussions/Pivot/需求：员工评价体系需求与设计/006_lishuai_think_69044a.md
+  created_at: '2026-05-06T14:01:48+08:00'
+  creator: lishuai
+  owner: lishuai
+  type: think
+  summary: 规划员工评价体系分两阶段落地：先于现有框架内补齐归因细则，待产品对齐后再启动 mention/annotation 拆分及多主体评分架构改造。
+  quote: discussions/Pivot/需求：员工评价体系需求与设计/005_zhangbo_think_661d24.md
+  comments:
+  - body: 这个方案希望你们review
+    mentions:
+    - dengke
+    - zhangbo
+    - liuyu
+    author: lishuai
+- file: discussions/Pivot/需求：员工评价体系需求与设计/007_liuyu_think_1fb12a.md
+  created_at: '2026-05-06T14:56:36+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: '对 lishuai #006 落地方案整体认同；补充三条小遗漏（verify 隐式归因 / 长期 @ 不回 / 派生层边界）+ 建议 annotation
+    数据模型拆分另起 matter 推进。'
+  quote: discussions/Pivot/需求：员工评价体系需求与设计/006_lishuai_think_69044a.md
+  comments:
+  - body: '对 #006 提了三条小遗漏 + annotation 拆分剥离的建议，请看下'
+    mentions:
+    - lishuai
+    author: liuyu
+- file: discussions/Pivot/需求：员工评价体系需求与设计/008_lishuai_think_5fde8b.md
+  created_at: '2026-05-06T20:38:45+08:00'
+  creator: lishuai
+  owner: lishuai
+  type: think
+  summary: 确认 Phase 1 归因细则已合入；采纳 007 建议将 annotation 模型剥离至独立 matter，本模块转为消费方，并更新 Phase
+    2 多主体评分与隐式归因的落地任务清单。
+  quote: discussions/Pivot/需求：员工评价体系需求与设计/007_liuyu_think_1fb12a.md
+  comments:
+  - body: 这个方案希望你们review
+    mentions:
+    - liuyu
+    author: lishuai

@@ -1,0 +1,222 @@
+version: 1
+matter:
+  id: Pivot新需求-支持MCP
+  title: Pivot新需求-支持MCP
+  current_status: finished
+  owner: yezaiyong
+  created_at: '2026-04-23T13:49:26+08:00'
+  updated_at: '2026-04-29T23:40:54+08:00'
+timeline:
+- file: discussions/Pivot/Pivot新需求-支持MCP/001_dengke_think_3901e6.md
+  created_at: '2026-04-23T13:49:26+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-23T13:49:26+08:00'
+    body: 请安排工程师跟进
+    author: dengke
+    mentions:
+    - liuyu
+- file: discussions/Pivot/Pivot新需求-支持MCP/002_liuyu_think_0bece3.md
+  created_at: '2026-04-23T17:26:29+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot新需求-支持MCP/001_dengke_think_3901e6.md
+  comments:
+  - created_at: '2026-04-23T17:26:29+08:00'
+    body: 参考回复内容。
+    author: liuyu
+    mentions:
+    - yezaiyong
+- file: discussions/Pivot/Pivot新需求-支持MCP/003_dengke_think_c9fe84.md
+  created_at: '2026-04-23T17:35:46+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot新需求-支持MCP/001_dengke_think_3901e6.md
+- file: discussions/Pivot/Pivot新需求-支持MCP/004_yezaiyong_think_cd6eb2.md
+  created_at: '2026-04-23T18:29:47+08:00'
+  creator: yezaiyong
+  owner: yezaiyong
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot新需求-支持MCP/001_dengke_think_3901e6.md
+  comments:
+  - created_at: '2026-04-23T18:29:47+08:00'
+    body: 看看接入MCP的方案设计。
+    author: yezaiyong
+    mentions:
+    - liuyu
+    - dengke
+- file: discussions/Pivot/Pivot新需求-支持MCP/005_dengke_think_041c6c.md
+  created_at: '2026-04-23T18:47:35+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot新需求-支持MCP/004_yezaiyong_think_cd6eb2.md
+- file: discussions/Pivot/Pivot新需求-支持MCP/006_liuyu_think_c15f94.md
+  created_at: '2026-04-23T19:12:32+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot新需求-支持MCP/005_dengke_think_041c6c.md
+- file: discussions/Pivot/Pivot新需求-支持MCP/007_dengke_think_cb7a4b.md
+  created_at: '2026-04-23T19:16:23+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot新需求-支持MCP/001_dengke_think_3901e6.md
+  comments:
+  - created_at: '2026-04-23T19:16:23+08:00'
+    body: 请参考，并把这个功能也加到本期的需求里面去。
+    author: dengke
+    mentions:
+    - yezaiyong
+- file: discussions/Pivot/Pivot新需求-支持MCP/008_yezaiyong_think_f37772.md
+  created_at: '2026-04-24T11:21:06+08:00'
+  creator: yezaiyong
+  owner: yezaiyong
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot新需求-支持MCP/001_dengke_think_3901e6.md
+  comments:
+  - created_at: '2026-04-24T11:21:06+08:00'
+    body: MCP V2 主要更新：简化接入步骤，补齐产品使用方案（3 分钟上手该 MCP：2 分钟接入 + 1 分钟用完一次）。
+    author: yezaiyong
+    mentions:
+    - liuyu
+    - dengke
+  - created_at: '2026-04-24T12:55:02+08:00'
+    body: 我暂时没有时间看这个东西，请刘昱检查、评论并批准这个方案的最终执行。
+    author: dengke
+    mentions:
+    - liuyu
+  - created_at: '2026-04-24T14:57:01+08:00'
+    body: server需要做哪些支持
+    author: huangshengli
+    mentions:
+    - huangshengli
+    - tangkun
+    - yezaiyong
+- file: discussions/Pivot/Pivot新需求-支持MCP/009_dengke_think_877788.md
+  created_at: '2026-04-25T02:10:10+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/Pivot/Pivot新需求-支持MCP/008_yezaiyong_think_f37772.md
+  comments:
+  - created_at: '2026-04-25T02:10:10+08:00'
+    body: 干得好！
+    author: dengke
+    mentions:
+    - yezaiyong
+- file: discussions/Pivot/Pivot新需求-支持MCP/010_yezaiyong_act_3597cc.md
+  created_at: '2026-04-28T10:27:57+08:00'
+  creator: yezaiyong
+  owner: yezaiyong
+  type: act
+  summary: 验证 Claude Code 同机与 Codex 跨机 12 条 MCP 用例，确认连接配置、5 项核心读写接口、状态约束反例及跨用户隔离均通过，建立跨机部署最小可信路径。
+  quote: discussions/Pivot/Pivot 最小可用化（MVP）产品需求文档/003_terry.tao_think_056ae1.md
+  comments:
+  - body: 希望你们verify
+    mentions:
+    - liuyu
+    author: yezaiyong
+  status_change:
+    from: planning
+    to: executing
+  verifications_received:
+  - verify_file: discussions/Pivot/Pivot新需求-支持MCP/011_liuyu_verify_f205b1.md
+    verified_at: '2026-04-28T19:09:20+08:00'
+    verified_by: liuyu
+    judgement: passed
+    comment: passed
+- file: discussions/Pivot/Pivot新需求-支持MCP/011_liuyu_verify_f205b1.md
+  created_at: '2026-04-28T19:09:20+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: verify
+  summary: 验证确认整体实现满足核心需求，但指出暂不支持@人与跨帖引用、需手动复制URL及接入页排版待优化等四项延展缺口。
+  quote: discussions/Pivot/Pivot新需求-支持MCP/008_yezaiyong_think_f37772.md
+  verifications:
+  - target: discussions/Pivot/Pivot新需求-支持MCP/010_yezaiyong_act_3597cc.md
+    judgement: passed
+    comment: passed
+- file: discussions/Pivot/Pivot新需求-支持MCP/012_yezaiyong_act_15c4b0.md
+  created_at: '2026-04-29T18:37:09+08:00'
+  creator: yezaiyong
+  owner: yezaiyong
+  type: act
+  summary: MCP 四项延展优化点（@人、跨帖引用、调用直达、面板排版）验收测试全部通过，确认本批次需求已闭环上线。
+  quote: discussions/Pivot/Pivot新需求-支持MCP/011_liuyu_verify_f205b1.md
+  comments:
+  - body: mcp 延展点优化下测试结果
+    mentions:
+    - liuyu
+    author: yezaiyong
+  verifications_received:
+  - verify_file: discussions/Pivot/Pivot新需求-支持MCP/013_liuyu_verify_32b6c6.md
+    verified_at: '2026-04-29T18:44:07+08:00'
+    verified_by: liuyu
+    judgement: passed
+    comment: passed
+- file: discussions/Pivot/Pivot新需求-支持MCP/013_liuyu_verify_32b6c6.md
+  created_at: '2026-04-29T18:44:07+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: verify
+  summary: 确认 MCP 相关用户体验优化功能已全部实现，满足验收要求。
+  quote: discussions/Pivot/Pivot新需求-支持MCP/012_yezaiyong_act_15c4b0.md
+  verifications:
+  - target: discussions/Pivot/Pivot新需求-支持MCP/012_yezaiyong_act_15c4b0.md
+    judgement: passed
+    comment: passed
+- file: discussions/Pivot/Pivot新需求-支持MCP/014_liuyu_result_29f65b.md
+  created_at: '2026-04-29T18:47:11+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: result
+  summary: MCP相关用户体验功能已符合需求预期并完成验收。
+  outcome: finished
+  status_change:
+    from: executing
+    to: finished
+  comments:
+  - created_at: '2026-05-06T10:32:19+08:00'
+    body: '今天用 MCP 跟踪 OPC matter 进度，发现一个盲点：MCP 把评论丢了。后端 /api/matters/{id} 已经返回每条 timeline
+      item 的 comments 数组（含 author_display + body + mentions_display），但 server/mcp/schemas.py
+      的 TimelineItem 没声明 comments 字段，pydantic 在 tool_get_matter 序列化时直接 filter 掉。结果就是
+      agent 只能 add_comment 写、读不到任何评论——同事在评论区回应"解析已加"这类信息全部漏掉。
+
+
+      最小修复：TimelineItem 加一行 comments: list[dict] | None = None，后端不动。
+
+
+      想确认两件事：
+
+      1. 这个修复是否在排期里？
+
+      2. 若近期不修，xiongjianping 这边可以本地 skill 直调 REST 兜底，不阻塞；若官方版本将至，那就等你们。'
+    mentions:
+    - yezaiyong
+    author: xiongjianping
+  - created_at: '2026-05-06T10:38:35+08:00'
+    body: 直接提一个新的matter，这个问题当然应该修。同时，我发现list matter这个接口没有返回matter的owner和summary，导致AI需要多次读取调用才弄得到足够的信息，这些都需要修改。
+    mentions:
+    - xiongjianping
+    author: dengke
+- type: owner_change
+  created_at: '2026-04-29T23:40:54+08:00'
+  actor: dengke
+  from_owner: dengke
+  to_owner: yezaiyong
+  reason: 系统新功能上线，刚刚才有了owner功能，一开始需求是我创建，但一直分给他完成。所以修改owner为他

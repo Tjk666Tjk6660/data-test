@@ -1,0 +1,83 @@
+version: 1
+matter:
+  id: OPC 生态数字化协同平台·宁波_杭州方案文字版
+  title: OPC 生态数字化协同平台·宁波/杭州方案文字版
+  current_status: finished
+  created_at: '2026-04-24T11:49:55+08:00'
+  updated_at: '2026-05-06T11:21:59+08:00'
+timeline:
+- file: discussions/enclaws/OPC 生态数字化协同平台·宁波_杭州方案文字版/001_xiongjianping_think_1a7f5e.md
+  created_at: '2026-04-24T11:49:55+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-24T11:49:55+08:00'
+    body: 对外 HTML 页面文字底稿，请确认内容方向后进入开发阶段
+    author: xiongjianping
+    mentions:
+    - dengke
+    - liuyu
+    - daisy
+- file: discussions/enclaws/OPC 生态数字化协同平台·宁波_杭州方案文字版/002_dengke_think_164f9d.md
+  created_at: '2026-04-24T12:13:21+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/enclaws/OPC 生态数字化协同平台·宁波_杭州方案文字版/001_xiongjianping_think_1a7f5e.md
+  comments:
+  - created_at: '2026-04-24T12:58:02+08:00'
+    body: 把这个方案改好，部署到某一个公网可以访问的网页上去，我下午2:30见蒋会长的时候，要给他看。。
+    author: dengke
+    mentions:
+    - xiongjianping
+- file: discussions/enclaws/OPC 生态数字化协同平台·宁波_杭州方案文字版/003_daisy_think_7a0297.md
+  created_at: '2026-04-24T13:24:29+08:00'
+  creator: daisy
+  owner: daisy
+  type: think
+  summary: ''
+  quote: discussions/enclaws/OPC 生态数字化协同平台·宁波_杭州方案文字版/001_xiongjianping_think_1a7f5e.md
+- file: discussions/enclaws/OPC 生态数字化协同平台·宁波_杭州方案文字版/004_dengke_think_47bf0f.md
+  created_at: '2026-04-24T13:31:10+08:00'
+  creator: dengke
+  owner: dengke
+  type: think
+  summary: ''
+  quote: discussions/enclaws/OPC 生态数字化协同平台·宁波_杭州方案文字版/003_daisy_think_7a0297.md
+- file: discussions/enclaws/OPC 生态数字化协同平台·宁波_杭州方案文字版/005_xiongjianping_think_c4697e.md
+  created_at: '2026-04-24T19:13:17+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: think
+  summary: ''
+  quote: discussions/enclaws/OPC 生态数字化协同平台·宁波_杭州方案文字版/001_xiongjianping_think_1a7f5e.md
+  comments:
+  - created_at: '2026-04-24T19:13:17+08:00'
+    body: v2 定稿 + HTML 部署 opc.enclaws.com + 命名议题第三方建议，请审阅
+    author: xiongjianping
+    mentions:
+    - dengke
+    - daisy
+- file: discussions/enclaws/OPC 生态数字化协同平台·宁波_杭州方案文字版/006_xiongjianping_act_2c7688.md
+  created_at: '2026-05-06T11:21:20+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: act
+  summary: 确认方案已正式上线，本 matter 讨论结束并标记为完成。
+  quote: discussions/enclaws/OPC 生态数字化协同平台·宁波_杭州方案文字版/005_xiongjianping_think_c4697e.md
+  status_change:
+    from: planning
+    to: executing
+- file: discussions/enclaws/OPC 生态数字化协同平台·宁波_杭州方案文字版/007_xiongjianping_result_968db9.md
+  created_at: '2026-05-06T11:21:59+08:00'
+  creator: xiongjianping
+  owner: xiongjianping
+  type: result
+  summary: 方案已正式上线，本 matter 流程宣告完成。
+  outcome: finished
+  status_change:
+    from: executing
+    to: finished

@@ -1,0 +1,42 @@
+version: 1
+matter:
+  id: EC定时任务逻辑整理改造
+  title: EC定时任务逻辑整理改造
+  current_status: paused
+  created_at: '2026-04-21T17:43:34+08:00'
+  updated_at: '2026-05-06T11:33:31+08:00'
+timeline:
+- file: discussions/enclaws/EC定时任务逻辑整理改造/001_zhangbo_think_6eb888.md
+  created_at: '2026-04-21T17:43:34+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: ''
+  comments:
+  - created_at: '2026-04-21T17:43:34+08:00'
+    body: 请看一下这个方案，发表下意见和决策
+    author: zhangbo
+    mentions:
+    - liuyu
+- file: discussions/enclaws/EC定时任务逻辑整理改造/002_liuyu_think_a8aa59.md
+  created_at: '2026-04-22T10:17:02+08:00'
+  creator: liuyu
+  owner: liuyu
+  type: think
+  summary: ''
+  quote: discussions/enclaws/EC定时任务逻辑整理改造/001_zhangbo_think_6eb888.md
+- file: discussions/enclaws/EC定时任务逻辑整理改造/003_zhangbo_think_a7c4f4.md
+  created_at: '2026-05-06T11:33:31+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: 因功能暂未实现且管理后台使用场景较少，决定当前版本暂不作变动。
+  quote: discussions/enclaws/EC定时任务逻辑整理改造/002_liuyu_think_a8aa59.md
+  comments:
+  - body: 后续暂停到取消的功能上线后变为取消，后需有需求再进行变更
+    mentions:
+    - liuyu
+    author: zhangbo
+  status_change:
+    from: planning
+    to: paused
