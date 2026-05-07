@@ -1,0 +1,19 @@
+version: 1
+matter:
+  id: 客服流程
+  title: 客服流程
+  current_status: planning
+  owner: tangjiankang
+  visibility:
+    mode: public
+    roles: []
+    user_ids: []
+  created_at: '2026-05-07T15:17:09+08:00'
+  updated_at: '2026-05-07T15:17:09+08:00'
+timeline:
+- file: discussions/测试/客服流程/001_tangjiankang_think_90199a.md
+  created_at: '2026-05-07T15:17:09+08:00'
+  creator: tangjiankang
+  owner: tangjiankang
+  type: think
+  summary: 建立客服流程思考框架，明确梳理现状、识别痛点及探讨优化方向，待补充具体内容后推进讨论。
