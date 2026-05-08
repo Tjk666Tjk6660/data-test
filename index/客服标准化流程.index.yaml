@@ -9,7 +9,7 @@ matter:
     roles: []
     user_ids: []
   created_at: '2026-05-08T15:28:29+08:00'
-  updated_at: '2026-05-08T17:06:51+08:00'
+  updated_at: '2026-05-08T17:09:15+08:00'
 timeline:
 - file: discussions/pivot/客服标准化流程/001_tangjiankang_think_9fe207.md
   created_at: '2026-05-08T15:28:29+08:00'
@@ -82,3 +82,10 @@ timeline:
   type: act
   summary: 通过附件补充3月20日业务上下文调整细节，持续完善AI认知底座。
   quote: discussions/pivot/客服标准化流程/006_tangjiankang_act_de2b10.md
+- file: discussions/pivot/客服标准化流程/008_tangjiankang_act_440e15.md
+  created_at: '2026-05-08T17:09:15+08:00'
+  creator: tangjiankang
+  owner: tangjiankang
+  type: act
+  summary: 补充客服流程相关截图素材，为标准化流程制定与AI认知底座完善提供可视化参考依据。
+  quote: discussions/pivot/客服标准化流程/007_tangjiankang_act_f9ce53.md
