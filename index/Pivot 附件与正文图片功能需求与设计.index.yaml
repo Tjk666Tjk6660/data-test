@@ -130,3 +130,11 @@ timeline:
   type: act
   summary: 添加测试附件 GlobalLog.txt 并验证图文混排功能。
   quote: discussions/pivot/Pivot 附件与正文图片功能需求与设计/012_tangjiankang_think_d6c14c.md
+  invalidated: true
+  invalidated_at: '2026-05-08T15:26:29+08:00'
+  invalidated_reason: misposted
+  invalidated_by: tangjiankang
+- creator: tangjiankang
+  created_at: '2026-05-08T15:26:29+08:00'
+  quote: discussions/pivot/Pivot 附件与正文图片功能需求与设计/013_tangjiankang_act_905281.md
+  reason: misposted
