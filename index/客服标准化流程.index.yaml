@@ -9,7 +9,7 @@ matter:
     roles: []
     user_ids: []
   created_at: '2026-05-08T15:28:29+08:00'
-  updated_at: '2026-05-08T15:52:46+08:00'
+  updated_at: '2026-05-08T15:54:27+08:00'
 timeline:
 - file: discussions/pivot/客服标准化流程/001_tangjiankang_think_9fe207.md
   created_at: '2026-05-08T15:28:29+08:00'
@@ -38,3 +38,20 @@ timeline:
   type: act
   summary: 因附件均为图片无法识别具体内容，请补充关键结论或操作说明以便生成摘要。
   quote: discussions/pivot/客服标准化流程/003_tangjiankang_act_b8d57d.md
+  verifications_received:
+  - verify_file: discussions/pivot/客服标准化流程/005_tangjiankang_verify_297d7a.md
+    verified_at: '2026-05-08T15:54:27+08:00'
+    verified_by: tangjiankang
+    judgement: passed
+    comment: '111'
+- file: discussions/pivot/客服标准化流程/005_tangjiankang_verify_297d7a.md
+  created_at: '2026-05-08T15:54:27+08:00'
+  creator: tangjiankang
+  owner: tangjiankang
+  type: verify
+  summary: 提交理财产品中央数据交换协议v1.0及不兼容字段分析材料，完成数据核对确认。
+  quote: discussions/pivot/客服标准化流程/004_tangjiankang_act_6070e0.md
+  verifications:
+  - target: discussions/pivot/客服标准化流程/004_tangjiankang_act_6070e0.md
+    judgement: passed
+    comment: '111'
