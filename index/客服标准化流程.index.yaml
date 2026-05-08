@@ -9,7 +9,7 @@ matter:
     roles: []
     user_ids: []
   created_at: '2026-05-08T15:28:29+08:00'
-  updated_at: '2026-05-08T16:00:10+08:00'
+  updated_at: '2026-05-08T17:06:51+08:00'
 timeline:
 - file: discussions/pivot/客服标准化流程/001_tangjiankang_think_9fe207.md
   created_at: '2026-05-08T15:28:29+08:00'
@@ -75,3 +75,10 @@ timeline:
   quote: discussions/pivot/客服标准化流程/006_tangjiankang_act_de2b10.md
   reason: restored
   summary: '111'
+- file: discussions/pivot/客服标准化流程/007_tangjiankang_act_f9ce53.md
+  created_at: '2026-05-08T17:06:51+08:00'
+  creator: tangjiankang
+  owner: tangjiankang
+  type: act
+  summary: 通过附件补充3月20日业务上下文调整细节，持续完善AI认知底座。
+  quote: discussions/pivot/客服标准化流程/006_tangjiankang_act_de2b10.md
