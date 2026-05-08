@@ -9,7 +9,7 @@ matter:
     roles: []
     user_ids: []
   created_at: '2026-05-08T15:28:29+08:00'
-  updated_at: '2026-05-08T15:38:25+08:00'
+  updated_at: '2026-05-08T15:52:46+08:00'
 timeline:
 - file: discussions/pivot/客服标准化流程/001_tangjiankang_think_9fe207.md
   created_at: '2026-05-08T15:28:29+08:00'
@@ -31,3 +31,10 @@ timeline:
   type: act
   summary: 由于文件仅包含图片链接，无法读取具体内容，请补充文字描述以便生成 summary。
   quote: discussions/pivot/客服标准化流程/002_tangjiankang_act_13084b.md
+- file: discussions/pivot/客服标准化流程/004_tangjiankang_act_6070e0.md
+  created_at: '2026-05-08T15:52:46+08:00'
+  creator: tangjiankang
+  owner: tangjiankang
+  type: act
+  summary: 因附件均为图片无法识别具体内容，请补充关键结论或操作说明以便生成摘要。
+  quote: discussions/pivot/客服标准化流程/003_tangjiankang_act_b8d57d.md
