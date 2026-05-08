@@ -9,7 +9,7 @@ matter:
     roles: []
     user_ids: []
   created_at: '2026-05-08T15:28:29+08:00'
-  updated_at: '2026-05-08T15:30:05+08:00'
+  updated_at: '2026-05-08T15:38:25+08:00'
 timeline:
 - file: discussions/pivot/客服标准化流程/001_tangjiankang_think_9fe207.md
   created_at: '2026-05-08T15:28:29+08:00'
@@ -24,3 +24,10 @@ timeline:
   type: act
   summary: 文件附上了三张与客服标准化流程相关的参考图片，用于直观展示流程节点或作为 SOP 制定的视觉辅助材料。
   quote: discussions/pivot/客服标准化流程/001_tangjiankang_think_9fe207.md
+- file: discussions/pivot/客服标准化流程/003_tangjiankang_act_b8d57d.md
+  created_at: '2026-05-08T15:38:25+08:00'
+  creator: tangjiankang
+  owner: tangjiankang
+  type: act
+  summary: 由于文件仅包含图片链接，无法读取具体内容，请补充文字描述以便生成 summary。
+  quote: discussions/pivot/客服标准化流程/002_tangjiankang_act_13084b.md
