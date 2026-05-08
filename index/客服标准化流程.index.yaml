@@ -9,7 +9,7 @@ matter:
     roles: []
     user_ids: []
   created_at: '2026-05-08T15:28:29+08:00'
-  updated_at: '2026-05-08T15:54:27+08:00'
+  updated_at: '2026-05-08T16:00:10+08:00'
 timeline:
 - file: discussions/pivot/客服标准化流程/001_tangjiankang_think_9fe207.md
   created_at: '2026-05-08T15:28:29+08:00'
@@ -55,3 +55,10 @@ timeline:
   - target: discussions/pivot/客服标准化流程/004_tangjiankang_act_6070e0.md
     judgement: passed
     comment: '111'
+- file: discussions/pivot/客服标准化流程/006_tangjiankang_act_de2b10.md
+  created_at: '2026-05-08T16:00:10+08:00'
+  creator: tangjiankang
+  owner: tangjiankang
+  type: act
+  summary: 界定公司双线业务布局、核心客户及打磨 Pivot 的战略重心，明确 AI 辅助协作下的角色判断准则，为 AI 生成汇报与业务决策提供标准化认知底座。
+  quote: discussions/pivot/客服标准化流程/005_tangjiankang_verify_297d7a.md
