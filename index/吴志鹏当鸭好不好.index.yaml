@@ -9,7 +9,7 @@ matter:
     roles: []
     user_ids: []
   created_at: '2026-05-14T15:40:01+08:00'
-  updated_at: '2026-05-14T15:40:01+08:00'
+  updated_at: '2026-05-14T15:40:52+08:00'
 timeline:
 - file: discussions/吴志鹏/吴志鹏当鸭好不好/001_tangjiankang_think_03f252.md
   created_at: '2026-05-14T15:40:01+08:00'
@@ -22,3 +22,10 @@ timeline:
     targets:
     - wuzhipeng
     author: tangjiankang
+- file: discussions/吴志鹏/吴志鹏当鸭好不好/002_wuzhipeng_think_0fcbbe.md
+  created_at: '2026-05-14T15:40:52+08:00'
+  creator: wuzhipeng
+  owner: wuzhipeng
+  type: think
+  summary: 作者明确表态愿意担任唐建康的父亲。
+  quote: discussions/吴志鹏/吴志鹏当鸭好不好/001_tangjiankang_think_03f252.md
