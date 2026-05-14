@@ -1,0 +1,24 @@
+version: 1
+matter:
+  id: 吴志鹏当鸭好不好
+  title: 吴志鹏当鸭好不好
+  current_status: planning
+  owner: wuzhipeng
+  visibility:
+    mode: public
+    roles: []
+    user_ids: []
+  created_at: '2026-05-14T15:40:01+08:00'
+  updated_at: '2026-05-14T15:40:01+08:00'
+timeline:
+- file: discussions/吴志鹏/吴志鹏当鸭好不好/001_tangjiankang_think_03f252.md
+  created_at: '2026-05-14T15:40:01+08:00'
+  creator: tangjiankang
+  owner: tangjiankang
+  type: think
+  summary: 发起讨论以评估"吴志鹏当鸭"方案的可行性，梳理关键维度并邀请相关同事 review 给出反馈。
+  mentions:
+  - body: 这个方案希望你们review
+    targets:
+    - wuzhipeng
+    author: tangjiankang
