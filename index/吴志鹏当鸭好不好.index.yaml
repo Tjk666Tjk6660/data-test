@@ -2,14 +2,14 @@ version: 1
 matter:
   id: 吴志鹏当鸭好不好
   title: 吴志鹏当鸭好不好
-  current_status: planning
+  current_status: paused
   owner: wuzhipeng
   visibility:
     mode: public
     roles: []
     user_ids: []
   created_at: '2026-05-14T15:40:01+08:00'
-  updated_at: '2026-05-14T15:40:52+08:00'
+  updated_at: '2026-05-14T15:44:12+08:00'
 timeline:
 - file: discussions/吴志鹏/吴志鹏当鸭好不好/001_tangjiankang_think_03f252.md
   created_at: '2026-05-14T15:40:01+08:00'
@@ -29,3 +29,18 @@ timeline:
   type: think
   summary: 作者明确表态愿意担任唐建康的父亲。
   quote: discussions/吴志鹏/吴志鹏当鸭好不好/001_tangjiankang_think_03f252.md
+- file: discussions/吴志鹏/吴志鹏当鸭好不好/003_tangjiankang_think_42b95a.md
+  created_at: '2026-05-14T15:44:12+08:00'
+  creator: tangjiankang
+  owner: tangjiankang
+  type: think
+  summary: 驳斥吴志鹏自认长辈的荒谬主张，强调人际关系的客观性并明确驳回其无根据言论。
+  quote: discussions/吴志鹏/吴志鹏当鸭好不好/002_wuzhipeng_think_0fcbbe.md
+  mentions:
+  - body: 这个方案希望你们review
+    targets:
+    - wuzhipeng
+    author: tangjiankang
+  status_change:
+    from: planning
+    to: paused
