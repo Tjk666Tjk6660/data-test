@@ -1,0 +1,19 @@
+version: 1
+matter:
+  id: 赵观江吃屎
+  title: 赵观江吃屎
+  current_status: planning
+  owner: tangjiankang
+  visibility:
+    mode: public
+    roles: []
+    user_ids: []
+  created_at: '2026-05-15T17:50:58+08:00'
+  updated_at: '2026-05-15T17:50:58+08:00'
+timeline:
+- file: discussions/pivot/赵观江吃屎/001_tangjiankang_think_208d05.md
+  created_at: '2026-05-15T17:50:58+08:00'
+  creator: tangjiankang
+  owner: tangjiankang
+  type: think
+  summary: 发起关于"赵观江吃屎"话题的讨论，目前缺少具体背景信息，待补充后进一步展开。
