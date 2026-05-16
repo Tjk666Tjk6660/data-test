@@ -5,9 +5,11 @@ matter:
   current_status: planning
   owner: tangjiankang
   visibility:
-    mode: public
+    mode: restricted
     roles: []
-    user_ids: []
+    user_ids:
+    - c273455ec96f4b31a9ac11191901b8ab
+    - c315fcfeb42448d98ec7ee5cb3a80dbe
   created_at: '2026-05-15T17:50:58+08:00'
   updated_at: '2026-05-15T17:50:58+08:00'
 timeline:
