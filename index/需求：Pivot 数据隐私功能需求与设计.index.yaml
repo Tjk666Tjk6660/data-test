@@ -3,8 +3,9 @@ matter:
   id: 需求：Pivot 数据隐私功能需求与设计
   title: 需求：Pivot 数据隐私功能需求与设计
   current_status: executing
+  owner: wuzhipeng
   created_at: '2026-04-29T14:50:37+08:00'
-  updated_at: '2026-05-06T18:53:04+08:00'
+  updated_at: '2026-05-18T22:14:34+08:00'
 timeline:
 - file: discussions/Pivot/需求：Pivot 数据隐私功能需求与设计/001_zhangbo_think_6ca5a5.md
   created_at: '2026-04-29T14:50:37+08:00'
@@ -12,13 +13,13 @@ timeline:
   owner: zhangbo
   type: think
   summary: 明确 Pivot 数据隐私功能的 Category+Matter 双层权限控制方案、各端拦截要点与非公开通知降级规则，给出验收标准，并暂定不设全局超管且本期不支持分类群通知。
-  comments:
+  mentions:
   - created_at: '2026-04-29T14:51:59+08:00'
     body: 看看这个数据隐私的需求是否需要补充
-    mentions:
+    author: zhangbo
+    targets:
     - dengke
     - liuyu
-    author: zhangbo
 - file: discussions/Pivot/需求：Pivot 数据隐私功能需求与设计/002_zhangbo_think_6edea4.md
   created_at: '2026-04-29T16:37:31+08:00'
   creator: zhangbo
@@ -26,12 +27,12 @@ timeline:
   type: think
   summary: 补充明确帖子权限管理规则：仅 owner 和创建者可动态修改权限，其他用户无权操作。
   quote: discussions/Pivot/需求：Pivot 数据隐私功能需求与设计/001_zhangbo_think_6ca5a5.md
-  comments:
+  mentions:
   - body: 补充中途修改角色的场景
-    mentions:
+    author: zhangbo
+    targets:
     - yuebilin
     - liuyu
-    author: zhangbo
 - file: discussions/Pivot/需求：Pivot 数据隐私功能需求与设计/003_yuebilin_act_02de54.md
   created_at: '2026-04-29T17:15:54+08:00'
   creator: yuebilin
@@ -39,17 +40,6 @@ timeline:
   type: act
   summary: 本设计将用户角色扩展为多选集合，并定义 Matter/Category 可见范围的数据模型、后端权限校验服务、前端选择器交互及搜索通知等全链路规则。
   quote: discussions/Pivot/需求：Pivot 数据隐私功能需求与设计/002_zhangbo_think_6edea4.md
-  comments:
-  - body: 请查阅
-    mentions:
-    - liuyu
-    - zhangbo
-    author: yuebilin
-  - created_at: '2026-04-29T17:27:02+08:00'
-    body: 前端用户和角色的选择器不能大于Category，页面不能直接出现403或者400。除非403是个页面
-    mentions:
-    - yuebilin
-    author: zhangbo
   status_change:
     from: planning
     to: executing
@@ -59,6 +49,17 @@ timeline:
     verified_by: liuyu
     judgement: passed
     comment: passed
+  mentions:
+  - body: 请查阅
+    author: yuebilin
+    targets:
+    - liuyu
+    - zhangbo
+  - created_at: '2026-04-29T17:27:02+08:00'
+    body: 前端用户和角色的选择器不能大于Category，页面不能直接出现403或者400。除非403是个页面
+    author: zhangbo
+    targets:
+    - yuebilin
 - file: discussions/Pivot/需求：Pivot 数据隐私功能需求与设计/004_liuyu_think_29c3cd.md
   created_at: '2026-04-29T17:57:37+08:00'
   creator: liuyu
@@ -75,11 +76,11 @@ timeline:
   type: think
   summary: 定义多角色模型与 Git/YAML 可见范围事实源，明确权限服务逻辑、前后端接口与双栏选择器规范，并规划存量数据公开迁移及全量出口权限收敛。
   quote: discussions/Pivot/需求：Pivot 数据隐私功能需求与设计/004_liuyu_think_29c3cd.md
-  comments:
+  mentions:
   - body: 请查阅
-    mentions:
-    - liuyu
     author: yuebilin
+    targets:
+    - liuyu
 - file: discussions/Pivot/需求：Pivot 数据隐私功能需求与设计/006_yuebilin_think_8b1c07.md
   created_at: '2026-04-30T16:03:33+08:00'
   creator: yuebilin
@@ -88,11 +89,11 @@ timeline:
   summary: 补充 Category admin 管理入口，明确后端校验 user_ids 不得越权，要求新建 Category 必传可见范围，并规定收窄
     Category 时遇 Matter 冲突应拒绝保存而非自动收窄。
   quote: discussions/Pivot/需求：Pivot 数据隐私功能需求与设计/005_yuebilin_think_c54fc9.md
-  comments:
+  mentions:
   - body: 请查阅，主要看1 和 4
-    mentions:
-    - liuyu
     author: yuebilin
+    targets:
+    - liuyu
 - file: discussions/Pivot/需求：Pivot 数据隐私功能需求与设计/007_liuyu_think_233ef7.md
   created_at: '2026-04-30T17:10:52+08:00'
   creator: liuyu
@@ -103,12 +104,12 @@ timeline:
     admin，admin Category 后台只展示元数据与计数避免反推业务信息；(2) authorized_users 应能 escape Category
     角色边界以保留「+指定用户」并集语义并支持跨范围 review/外部协作场景，给出 can_read_matter 判定顺序；§3、§4 保留无意见。
   quote: discussions/Pivot/需求：Pivot 数据隐私功能需求与设计/006_yuebilin_think_8b1c07.md
-  comments:
+  mentions:
   - created_at: '2026-04-30T17:36:19+08:00'
     body: 看了飞书的做法，赞成你的说法，我先实现后在看有啥问题补充
-    mentions:
-    - liuyu
     author: yuebilin
+    targets:
+    - liuyu
 - file: discussions/Pivot/需求：Pivot 数据隐私功能需求与设计/008_liuyu_verify_bd90bd.md
   created_at: '2026-05-06T18:53:04+08:00'
   creator: liuyu
@@ -120,3 +121,9 @@ timeline:
   - target: discussions/Pivot/需求：Pivot 数据隐私功能需求与设计/003_yuebilin_act_02de54.md
     judgement: passed
     comment: passed
+- type: owner_change
+  created_at: '2026-05-18T22:14:34+08:00'
+  actor: tangjiankang
+  from_owner: zhangbo
+  to_owner: wuzhipeng
+  reason: '111111'
